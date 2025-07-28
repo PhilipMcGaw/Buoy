@@ -3143,12 +3143,6 @@
 		(uuid "64919fa1-773e-4718-9ada-3b9f130003fc")
 	)
 	(junction
-		(at 181.61 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e6b1f6a-de0e-4bc1-b391-e9be63b808be")
-	)
-	(junction
 		(at 26.67 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3262,16 +3256,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 102.87) (xy 205.74 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02195e6d-a5f5-4328-bbaf-8b15246a02b0")
-	)
-	(wire
-		(pts
 			(xy 153.67 69.85) (xy 162.56 69.85)
 		)
 		(stroke
@@ -3292,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 102.87) (xy 181.61 102.87)
+			(xy 168.91 102.87) (xy 205.74 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3829,16 +3813,6 @@
 			(type default)
 		)
 		(uuid "aa5b091e-fa1f-41b9-9102-839a2ed14438")
-	)
-	(wire
-		(pts
-			(xy 181.61 102.87) (xy 181.61 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab883fab-de20-44af-be61-4f2c81e3bed2")
 	)
 	(wire
 		(pts
@@ -7224,7 +7198,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Batteries:18650 Holder"
 			(at 156.21 107.696 90)
 			(effects
 				(font
@@ -7261,72 +7235,6 @@
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/435dc0a6-dd3d-415b-8797-8ccd529132c2"
 					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-BATT")
-		(at 181.61 111.76 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47b003a0-a40e-479a-8dcc-bd54db6f6471")
-		(property "Reference" "#PWR010"
-			(at 181.61 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-Batt"
-			(at 181.61 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-Batt\""
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38a68002-ce0d-4a3d-944c-b698afa03744")
-		)
-		(instances
-			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/435dc0a6-dd3d-415b-8797-8ccd529132c2"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7883,76 +7791,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 181.61 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c19fbb6c-3ee9-4ced-a154-0c86e2b3015f")
-		(property "Reference" "BT3"
-			(at 185.42 106.1084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "18650"
-			(at 185.42 108.6484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 107.696 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 181.61 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6ec1b84-1de6-4e80-ac66-a6b593380168")
-		)
-		(pin "2"
-			(uuid "8b7b4024-3bed-4ffd-b7da-6a65bcaf2357")
-		)
-		(instances
-			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/435dc0a6-dd3d-415b-8797-8ccd529132c2"
-					(reference "BT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 26.67 36.83 0)
 		(unit 1)
@@ -8124,7 +7962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Batteries:18650 Holder"
 			(at 168.91 107.696 90)
 			(effects
 				(font
