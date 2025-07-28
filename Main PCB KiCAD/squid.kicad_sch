@@ -1176,7 +1176,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1197,7 +1197,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1223,7 +1223,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1241,7 +1241,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1279,7 +1279,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1444,17 +1444,16 @@
 		(uuid "e807e6cf-b84c-4066-ac76-0d972ed38e35")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 204.47 101.6 0)
+		(lib_id "power:+3.3V")
+		(at 80.01 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08ed784e-1ecd-42b7-82d1-26ae359de9a6")
-		(property "Reference" "#PWR020"
-			(at 204.47 105.41 0)
+		(uuid "081caa52-0b5e-4825-a845-c052d9ead5bf")
+		(property "Reference" "#PWR011"
+			(at 80.01 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,8 +1461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 204.47 96.52 0)
+		(property "Value" "+3.3V"
+			(at 80.391 55.2958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 101.6 0)
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 101.6 0)
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,22 +1487,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 204.47 101.6 0)
+		(property "Description" ""
+			(at 80.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "808b5091-c435-4205-b8cd-9676ab6cf572")
+			(uuid "240c58af-ef0b-4f6f-9a4e-9a112a3faeee")
 		)
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/b1b5818c-3c6a-4a38-a6f8-0a964c6bc0f0"
-					(reference "#PWR020")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1571,6 +1569,70 @@
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/b1b5818c-3c6a-4a38-a6f8-0a964c6bc0f0"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 204.47 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f46b101-3fa9-4a23-b21e-eeaae1cbf0ba")
+		(property "Reference" "#PWR012"
+			(at 204.47 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 204.851 97.2058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f44d054-80eb-4660-ae5c-9423b1cc64eb")
+		)
+		(instances
+			(project "Buoy PCB"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/b1b5818c-3c6a-4a38-a6f8-0a964c6bc0f0"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1788,7 +1850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 207.01 107.9499 0)
 			(effects
 				(font
