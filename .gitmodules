@@ -1,0 +1,3 @@
+[submodule "Main PCB KiCAD/Assets"]
+	path = Main PCB KiCAD/Assets
+	url = git@github.com:PhilipMcGaw/common_kicad_modules.git
