@@ -1123,6 +1123,49 @@
 		)
 	)
 	(sheet
+		(at 60.96 110.49)
+		(size 31.75 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3f0e90b9-21cb-4b24-8b8b-d31fe0d90358")
+		(property "Sheetname" "Battery"
+			(at 60.96 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "battery.kicad_sch"
+			(at 60.96 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Buoy PCB"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 140.97 87.63)
 		(size 31.75 25.4)
 		(exclude_from_sim no)
