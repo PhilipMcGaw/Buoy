@@ -489,7 +489,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Buoy PCB.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },
@@ -646,10 +646,6 @@
     [
       "b1b5818c-3c6a-4a38-a6f8-0a964c6bc0f0",
       "Squid"
-    ],
-    [
-      "efea0941-d0a9-4721-b71c-f494ea194ea2",
-      "CAN Interface"
     ],
     [
       "e4da0947-b13f-47c4-af36-48578442859c",
