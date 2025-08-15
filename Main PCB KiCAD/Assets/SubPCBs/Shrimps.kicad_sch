@@ -1,0 +1,58 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6bc801a6-3114-4cf0-bf8f-0b26a4bc77db")
+	(paper "A4")
+	(title_block
+		(title "${Project Title}")
+		(date "2025-08-14")
+		(rev "${Revision}")
+		(company "${Company Name}")
+		(comment 1 "${Designed By}")
+	)
+	(lib_symbols)
+	(sheet
+		(at 38.1 43.18)
+		(size 27.94 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ae6e8c9-8c11-4ba6-90c4-8883532066cd")
+		(property "Sheetname" "ATmega328P-P"
+			(at 38.1 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Shrimps/Shrimp ATmega328P-P.kicad_sch"
+			(at 38.1 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "common"
+				(path "/4f572b99-5eee-4690-a22b-0d608e2cc8a2/dbbfd8d6-519b-46ce-9f06-a22221cb98b9"
+					(page "3")
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,67 @@
+(footprint "DP3030" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.14)))
+    (tstamp 03114a8e-0c5d-46c5-ad69-548984241720)
+  )
+  (fp_text value "Val**" (at 0 0) (layer "F.SilkS") hide
+      (effects (font (size 1.27 1.27) (thickness 0.14)))
+    (tstamp 4cf57653-0d1c-4a97-b5cd-e4ba688fd0c8)
+  )
+  (fp_text user "https://labbook.skippy.org.uk/projects/kicad/sick_of_beige" (at 0 20 unlocked) (layer "Cmts.User")
+      (effects (font (size 1 1) (thickness 0.14)))
+    (tstamp 20bcec6b-a4e8-46fb-b7dc-534cdc2c28d8)
+  )
+  (fp_line (start -14 11) (end -14 -11)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 55d3f990-a797-4a9f-8bc4-f63fe1bc2c74))
+  (fp_line (start -11 -14) (end 11 -14)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp c92c57b0-1cbd-459f-b128-e64f68f57c75))
+  (fp_line (start 11 14) (end -11 14)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp c96a45f8-409f-4ab1-97bf-94b4c4108361))
+  (fp_line (start 14 -11) (end 14 11)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 6797f805-b119-4618-aaaa-a3ef57b0c605))
+  (fp_arc (start -14 -11) (mid -13.12132 -13.12132) (end -11 -14)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 76cbba0b-ea06-4f9b-8cdb-75fa45989a84))
+  (fp_arc (start -11 14) (mid -13.12132 13.12132) (end -14 11)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp fba8972b-23d9-4c3c-a8c7-595f87981c51))
+  (fp_arc (start 11 -14) (mid 13.12132 -13.12132) (end 14 -11)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp c050cff3-1fb5-491f-a0df-0a98b9b51772))
+  (fp_arc (start 14 11) (mid 13.12132 13.12132) (end 11 14)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp c67addf5-e49d-4d3c-b5f0-778da8b0eb9f))
+  (fp_circle (center -11 -11) (end -11 -11)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp fcdbef2c-1ed2-434e-9d8d-64c6a5d3ac22))
+  (fp_circle (center -11 11) (end -11 11)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp fcdbef2c-1ed2-434e-9d8d-64c6a5d3ac22))
+  (fp_circle (center 11 -11) (end 11 -11)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp fcdbef2c-1ed2-434e-9d8d-64c6a5d3ac22))
+  (fp_circle (center 11 11) (end 11 11)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp fcdbef2c-1ed2-434e-9d8d-64c6a5d3ac22))
+  (pad "1" thru_hole circle (at -11 -11) (size 3.6 3.6) (drill 3.2) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp 838556a9-6a08-42a2-ae35-f1309acbf54b))
+  (pad "1" connect circle (at -11 -11) (size 5.6 5.6) (layers "F.Cu" "F.Mask") (tstamp 363c0e3d-55b4-4425-86b2-bfa8a8c950f9))
+  (pad "1" connect circle (at -11 -11) (size 5.6 5.6) (layers "B.Cu" "B.Mask") (tstamp d834d937-9a71-42cf-b63b-c370c48fd1d5))
+  (pad "1" thru_hole circle (at -11 11) (size 3.6 3.6) (drill 3.2) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp 838556a9-6a08-42a2-ae35-f1309acbf54b))
+  (pad "1" connect circle (at -11 11) (size 5.6 5.6) (layers "F.Cu" "F.Mask") (tstamp 363c0e3d-55b4-4425-86b2-bfa8a8c950f9))
+  (pad "1" connect circle (at -11 11) (size 5.6 5.6) (layers "B.Cu" "B.Mask") (tstamp d834d937-9a71-42cf-b63b-c370c48fd1d5))
+  (pad "1" thru_hole circle (at 11 -11) (size 3.6 3.6) (drill 3.2) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp 838556a9-6a08-42a2-ae35-f1309acbf54b))
+  (pad "1" connect circle (at 11 -11) (size 5.6 5.6) (layers "F.Cu" "F.Mask") (tstamp 363c0e3d-55b4-4425-86b2-bfa8a8c950f9))
+  (pad "1" connect circle (at 11 -11) (size 5.6 5.6) (layers "B.Cu" "B.Mask") (tstamp d834d937-9a71-42cf-b63b-c370c48fd1d5))
+  (pad "1" thru_hole circle (at 11 11) (size 3.6 3.6) (drill 3.2) (layers "*.Mask" "F.Cu" "In1.Cu" "B.Cu") (tstamp 838556a9-6a08-42a2-ae35-f1309acbf54b))
+  (pad "1" connect circle (at 11 11) (size 5.6 5.6) (layers "F.Cu" "F.Mask") (tstamp 363c0e3d-55b4-4425-86b2-bfa8a8c950f9))
+  (pad "1" connect circle (at 11 11) (size 5.6 5.6) (layers "B.Cu" "B.Mask") (tstamp d834d937-9a71-42cf-b63b-c370c48fd1d5))
+  (group "" (id b5f0a984-6143-4be7-93f7-4947c6fa4ad1)
+    (members
+      363c0e3d-55b4-4425-86b2-bfa8a8c950f9
+      55d3f990-a797-4a9f-8bc4-f63fe1bc2c74
+      6797f805-b119-4618-aaaa-a3ef57b0c605
+      76cbba0b-ea06-4f9b-8cdb-75fa45989a84
+      838556a9-6a08-42a2-ae35-f1309acbf54b
+      c050cff3-1fb5-491f-a0df-0a98b9b51772
+      c67addf5-e49d-4d3c-b5f0-778da8b0eb9f
+      c92c57b0-1cbd-459f-b128-e64f68f57c75
+      c96a45f8-409f-4ab1-97bf-94b4c4108361
+      d834d937-9a71-42cf-b63b-c370c48fd1d5
+      fba8972b-23d9-4c3c-a8c7-595f87981c51
+      fcdbef2c-1ed2-434e-9d8d-64c6a5d3ac22
+    )
+  )
+)

@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MAX202CSE+T
+#/7657/887286/2.49/16/3/Integrated Circuit
+DEF MAX202CSE+T IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MAX202CSE+T" 1050 200 50 H V L CNN
+F2 "SOIC127P600X175-16N" 1050 100 50 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX200-MAX213.pdf" 1050 0 50 H I L CNN
+F4 "RS-232 Interface IC +5V, RS-232 Transceivers with 0.1 uF External Capacitors" 1050 -100 50 H I L CNN "Description"
+F5 "1.75" 1050 -200 50 H I L CNN "Height"
+F6 "Maxim Integrated" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAX202CSE+T" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "700-MAX202CSET" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX202CSE%2bT?qs=CDqwynd4ZNpE9WgDgCzB8A%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MAX202CSE+T" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/max202cset/maxim-integrated?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 1050 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 1050 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X C1+ 1 0 0 200 R 50 50 0 0 P
+X V+ 2 0 -100 200 R 50 50 0 0 P
+X C1- 3 0 -200 200 R 50 50 0 0 P
+X C2+ 4 0 -300 200 R 50 50 0 0 P
+X C2- 5 0 -400 200 R 50 50 0 0 P
+X V- 6 0 -500 200 R 50 50 0 0 P
+X T2OUT 7 0 -600 200 R 50 50 0 0 P
+X R2IN 8 0 -700 200 R 50 50 0 0 P
+X VCC 16 1200 0 200 L 50 50 0 0 P
+X GND 15 1200 -100 200 L 50 50 0 0 P
+X T1OUT 14 1200 -200 200 L 50 50 0 0 P
+X R1IN 13 1200 -300 200 L 50 50 0 0 P
+X R1OUT 12 1200 -400 200 L 50 50 0 0 P
+X T1IN 11 1200 -500 200 L 50 50 0 0 P
+X T2IN 10 1200 -600 200 L 50 50 0 0 P
+X R2OUT 9 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

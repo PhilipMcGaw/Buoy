@@ -1,0 +1,44 @@
+(footprint "DP7070" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 33b1dc1f-2035-46b8-914c-593241405871)
+  )
+  (fp_text value "DP7070" (at 0 1 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 23cf65dd-351c-43b1-b522-55fadc02a21b)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 94390178-43a4-4e44-aef2-1acf353f51c4)
+  )
+  (fp_line (start 31 35) (end -31 35) (layer "Edge.Cuts") (width 0.2) (tstamp 0eb9377f-a8ce-45db-b033-4eaf78bf3abc))
+  (fp_line (start 35 -31) (end 35 31) (layer "Edge.Cuts") (width 0.2) (tstamp 505e80cc-1696-4cc8-8d4c-54f7fbb8bbf0))
+  (fp_line (start -35 31) (end -35 -31) (layer "Edge.Cuts") (width 0.2) (tstamp 75bb97e8-6c84-417a-802b-4adf990945de))
+  (fp_line (start -31 -35) (end 31 -35) (layer "Edge.Cuts") (width 0.2) (tstamp 8033948a-db28-47fe-a134-a46c0d011a27))
+  (fp_arc (start 35 31) (mid 33.828427 33.828427) (end 31 35) (layer "Edge.Cuts") (width 0.2) (tstamp 056bb020-0fb6-4094-abbc-713f5e3c077b))
+  (fp_arc (start -31 35) (mid -33.828427 33.828427) (end -35 31) (layer "Edge.Cuts") (width 0.2) (tstamp 61360e4a-0e13-4e7c-b187-d097305bdc10))
+  (fp_arc (start 31 -35) (mid 33.828427 -33.828427) (end 35 -31) (layer "Edge.Cuts") (width 0.2) (tstamp 7995800b-0fad-4cfe-b46d-c450b3374c5f))
+  (fp_arc (start -35 -31) (mid -33.828427 -33.828427) (end -31 -35) (layer "Edge.Cuts") (width 0.2) (tstamp 98e5cfa2-8245-40f0-aa7b-0f3f2c4ec1c1))
+  (fp_circle (center 31 -31) (end 32.6 -31) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 0204aea5-2b15-44e6-9836-4bbaa3992eeb))
+  (fp_circle (center -31 31) (end -29.4 31) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 489e7c20-b107-4ff9-88cd-0e222b176d38))
+  (fp_circle (center 31 31) (end 32.6 31) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp 4dc42d5e-bcd2-48f1-bc19-8f149f2e5a42))
+  (fp_circle (center -31 -31) (end -29.4 -31) (layer "Edge.Cuts") (width 0.2) (fill none) (tstamp f9aff844-1ad0-4679-88dd-8b106d5568fd))
+  (group "" (id c5c64092-126f-43a9-ae5b-d99451589e53)
+    (members
+      0204aea5-2b15-44e6-9836-4bbaa3992eeb
+      056bb020-0fb6-4094-abbc-713f5e3c077b
+      0eb9377f-a8ce-45db-b033-4eaf78bf3abc
+      489e7c20-b107-4ff9-88cd-0e222b176d38
+      4dc42d5e-bcd2-48f1-bc19-8f149f2e5a42
+      505e80cc-1696-4cc8-8d4c-54f7fbb8bbf0
+      61360e4a-0e13-4e7c-b187-d097305bdc10
+      75bb97e8-6c84-417a-802b-4adf990945de
+      7995800b-0fad-4cfe-b46d-c450b3374c5f
+      8033948a-db28-47fe-a134-a46c0d011a27
+      98e5cfa2-8245-40f0-aa7b-0f3f2c4ec1c1
+      f9aff844-1ad0-4679-88dd-8b106d5568fd
+    )
+  )
+)
