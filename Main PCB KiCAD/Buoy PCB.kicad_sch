@@ -3173,7 +3173,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 20.32)
+		(at 130.81 39.37)
 		(size 29.21 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3189,7 +3189,7 @@
 		)
 		(uuid "b1b5818c-3c6a-4a38-a6f8-0a964c6bc0f0")
 		(property "Sheetname" "Squid"
-			(at 114.3 19.6084 0)
+			(at 130.81 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,8 +3197,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "squid.kicad_sch"
-			(at 114.3 50.1146 0)
+		(property "Sheetfile" "Assets/SubPCBs/Shrimps/Shrimp ATmega328P-P.kicad_sch"
+			(at 130.81 69.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
