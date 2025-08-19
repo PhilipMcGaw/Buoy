@@ -1933,7 +1933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e4a3f3d-6ae7-4dbe-9719-7c7885da9703")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR031"
 			(at 172.72 43.18 0)
 			(effects
 				(font
@@ -1983,7 +1983,7 @@
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "#PWR054")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -1999,7 +1999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2eb8560d-d782-4b89-98a4-e9cda7695be9")
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 174.8633 39.37 0)
 			(effects
 				(font
@@ -2072,7 +2072,7 @@
 		(instances
 			(project ""
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2088,7 +2088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "435c7f32-aaf6-4ebc-acd3-8e9fcf0a0961")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 196.85 21.5899 0)
 			(effects
 				(font
@@ -2142,7 +2142,7 @@
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2158,7 +2158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "503f58a9-e9cb-4029-aa27-a064226a91d5")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 231.14 36.8299 90)
 			(effects
 				(font
@@ -2212,7 +2212,7 @@
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -2228,7 +2228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6580082d-782f-4ec0-a3e0-72c80bfbfca4")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR034"
 			(at 231.14 71.12 0)
 			(effects
 				(font
@@ -2279,7 +2279,7 @@
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "#PWR02")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -2295,7 +2295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8831fcaa-8de7-4fb7-8e27-9fffe7aaa271")
-		(property "Reference" "J1"
+		(property "Reference" "J8"
 			(at 241.3 52.0699 0)
 			(effects
 				(font
@@ -2367,7 +2367,7 @@
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "J1")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2383,7 +2383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae5a502-ef52-4557-bc74-ba9adffce756")
-		(property "Reference" "JP6"
+		(property "Reference" "JP1"
 			(at 196.85 27.9399 90)
 			(effects
 				(font
@@ -2437,7 +2437,7 @@
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "JP6")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -2453,7 +2453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b782b789-0d08-4f47-ab6f-eff51b81f86f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR033"
 			(at 228.6 38.1 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "#PWR01")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a6b78f-f7ac-4293-9546-b61e91f0333d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR032"
 			(at 172.72 81.28 0)
 			(effects
 				(font
@@ -2570,7 +2570,7 @@
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "#PWR055")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
