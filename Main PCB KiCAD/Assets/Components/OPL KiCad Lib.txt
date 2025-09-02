@@ -1,1 +1,0 @@
-https://github.com/Seeed-Studio/OPL_Kicad_Library

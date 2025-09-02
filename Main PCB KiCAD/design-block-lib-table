@@ -1,4 +1,5 @@
 (design_block_lib_table
   (version 7)
   (lib (name "Shrimps")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Design Blocks/Shrimps.kicad_blocks")(options "")(descr "Shrimps"))
+  (lib (name "Power Supplies")(type "KiCad")(uri "${KICAD_USER_TEMPLATE_DIR}/common/Assets/Design Blocks/PSUs.kicad_blocks")(options "")(descr "Power Supplies"))
 )
