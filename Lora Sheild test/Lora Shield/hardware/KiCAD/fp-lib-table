@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Lora Shield v1.4")(type "KiCad")(uri "$(KIPRJMOD)/Lora Shield v1.4.pretty")(options "")(descr ""))
+)

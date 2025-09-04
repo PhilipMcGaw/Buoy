@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Lora Shield v1.4-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Lora Shield v1.4-eagle-import.kicad_sym")(options "")(descr ""))
+)
