@@ -3130,7 +3130,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2bb22ba2-be1c-4514-b874-b2be13e4be4c")
-		(property "Sheetname" "Arduino Mega"
+		(property "Sheetname" "Shrimp"
 			(at 384.81 91.9984 0)
 			(effects
 				(font
@@ -3139,7 +3139,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Arduino Mega.kicad_sch"
+		(property "Sheetfile" "Shrimp.kicad_sch"
 			(at 384.81 127.5846 0)
 			(effects
 				(font
@@ -3177,6 +3177,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "RST_SW" input
+			(at 431.8 102.87 0)
+			(uuid "0c402136-edcb-47d7-a69b-bd25b1d94bd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USER_SW GPIO_0" input
+			(at 384.81 104.14 180)
+			(uuid "f4b90c45-a360-4bc0-927f-2ed5e271f0e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
