@@ -663,6 +663,14 @@
     [
       "2bb22ba2-be1c-4514-b874-b2be13e4be4c",
       "Arduino Mega"
+    ],
+    [
+      "402c8c5f-ad4a-46d2-a42e-eba9c7fe5855",
+      "Front PCB"
+    ],
+    [
+      "2b71a53e-4a43-4bc8-a314-937e96c041a6",
+      "Back PCB"
     ]
   ],
   "text_variables": {}
