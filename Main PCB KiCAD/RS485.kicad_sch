@@ -1933,7 +1933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e4a3f3d-6ae7-4dbe-9719-7c7885da9703")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR03"
 			(at 217.17 123.19 0)
 			(effects
 				(font
@@ -1978,12 +1978,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1a029d48-2396-4cc1-aa54-c678acfa2734")
+			(uuid "65b8cf15-5f01-437a-a472-5c31bb683835")
 		)
 		(instances
 			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "#PWR031")
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2046,32 +2046,32 @@
 			)
 		)
 		(pin "3"
-			(uuid "0b8fa831-6dc9-4a21-8671-d0864ab09ddc")
+			(uuid "e1a9ac4a-750f-410a-b49c-f79fa63ce424")
 		)
 		(pin "4"
-			(uuid "4beba5f1-772e-4b76-a7cd-a210432f567d")
+			(uuid "f162ddce-ea69-4990-a77c-1d660983f705")
 		)
 		(pin "8"
-			(uuid "1db7aeae-04d8-43c3-bd4e-8ae47423a3a3")
+			(uuid "bcc7c7ab-a34b-4faf-b447-7b4396219239")
 		)
 		(pin "2"
-			(uuid "0fc2e127-b9da-4b5c-8b34-957c76b65548")
+			(uuid "5a1bf0c1-2e8e-48b5-b634-619f0ca2f26f")
 		)
 		(pin "1"
-			(uuid "0cddced9-74ab-49bc-ab1e-2aa5a1ba2fb2")
+			(uuid "8cb90b4a-4fce-4306-adca-c3a1b55f63e3")
 		)
 		(pin "6"
-			(uuid "c592e252-3bd2-4d62-b5a1-92eb9d316a89")
+			(uuid "af0392c1-7905-4e4d-a9e4-84bd3a2957a0")
 		)
 		(pin "5"
-			(uuid "eb1bc189-1704-4340-83b0-1d8adc25baba")
+			(uuid "9adea5f4-aadd-4f0f-a7c5-8e6dac7dec48")
 		)
 		(pin "7"
-			(uuid "a726df33-54dc-4bec-a996-bcd6dd255b2a")
+			(uuid "3adc9f0f-754e-4492-a4c3-b3e741da1e5e")
 		)
 		(instances
-			(project ""
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
+			(project "Buoy PCB"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
 					(reference "U2")
 					(unit 1)
 				)
@@ -2134,14 +2134,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a50a9d0e-2244-4f3b-971f-e5ab61056f60")
+			(uuid "8b246204-5243-4b5a-b484-2b041d0034d7")
 		)
 		(pin "1"
-			(uuid "c60948be-38b2-40c7-a1fe-64b26a412572")
+			(uuid "c3fcc87c-ba48-4649-9fb7-a5811b7f276d")
 		)
 		(instances
 			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
 					(reference "R7")
 					(unit 1)
 				)
@@ -2204,14 +2204,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1d68023a-e5fc-4e7c-90bf-651b4e4273fa")
+			(uuid "10a96a58-84b6-44df-99c1-8a9f32df0189")
 		)
 		(pin "2"
-			(uuid "eeee5537-5a4a-4579-9f00-95e2da4f5f45")
+			(uuid "bd154a53-c6b7-4e64-b27c-5d01948f6600")
 		)
 		(instances
 			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
 					(reference "JP2")
 					(unit 1)
 				)
@@ -2228,7 +2228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6580082d-782f-4ec0-a3e0-72c80bfbfca4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 275.59 151.13 0)
 			(effects
 				(font
@@ -2274,12 +2274,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e265c1b0-7acb-4384-850d-1d09078b6b0a")
+			(uuid "fad66366-7570-4d2f-9723-ef6a781430ae")
 		)
 		(instances
 			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "#PWR034")
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2313,7 +2313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105309-xx08_1x08_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S8B-PH-K_1x08_P2.00mm_Horizontal"
 			(at 283.21 132.08 0)
 			(effects
 				(font
@@ -2341,32 +2341,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "f23bf380-80f7-4958-b86d-5a1c995cfdf1")
+			(uuid "34f42f9e-bbcd-4480-9099-aff30a63d089")
 		)
 		(pin "7"
-			(uuid "ab1280dc-91af-4085-8a9d-c40639ac6402")
+			(uuid "305465d3-f84c-4503-b9f5-dda77f741db8")
 		)
 		(pin "8"
-			(uuid "8354c1ab-696b-4c2e-bb9b-37a14ae6257f")
+			(uuid "8e39657b-7b20-4daa-8734-86799b02ab8d")
 		)
 		(pin "1"
-			(uuid "37d5cf37-0a3e-40f0-b10d-2b831a539458")
+			(uuid "69ab2736-1c13-4bc6-ad75-f5f03bc37070")
 		)
 		(pin "3"
-			(uuid "619cdff2-0858-4bb6-8d95-b79a50f1b9e6")
+			(uuid "49552e1f-1025-481a-805e-bb9b67e95d6c")
 		)
 		(pin "4"
-			(uuid "3b2806bd-ed09-49ae-9836-c37c63036dc0")
+			(uuid "45241638-6d86-4fb3-a3f1-930649051311")
 		)
 		(pin "5"
-			(uuid "b957a64b-e040-41bb-973a-b74773bc004f")
+			(uuid "a1521ba8-654a-49a1-9d61-ce88a8d84d69")
 		)
 		(pin "6"
-			(uuid "c311483a-e51c-4f5d-9988-8255365b4e47")
+			(uuid "e7428d12-3b52-4c09-94f5-4bd15d175d4f")
 		)
 		(instances
 			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
 					(reference "J8")
 					(unit 1)
 				)
@@ -2429,14 +2429,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0a0e414-fc7c-4524-9345-0e2c17244e36")
+			(uuid "3338228b-9d79-4422-a4bf-940b13a61cb8")
 		)
 		(pin "2"
-			(uuid "cb5b7a1f-592b-4149-a7cd-4e8ff6dc1da9")
+			(uuid "be6dbe86-dce9-4c2f-815e-3dde0372c915")
 		)
 		(instances
 			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
 					(reference "JP1")
 					(unit 1)
 				)
@@ -2453,7 +2453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b782b789-0d08-4f47-ab6f-eff51b81f86f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 273.05 118.11 0)
 			(effects
 				(font
@@ -2498,12 +2498,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3037d558-6e78-419a-8972-54b563f46fa8")
+			(uuid "cadde8b6-05c3-46b0-838f-b6da8b466dcf")
 		)
 		(instances
 			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "#PWR033")
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6a6b78f-f7ac-4293-9546-b61e91f0333d")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR017"
 			(at 217.17 161.29 0)
 			(effects
 				(font
@@ -2565,12 +2565,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e21b7114-aa73-4116-a6fb-ca31e311f7b7")
+			(uuid "f5cb9cb2-ee5b-4b4b-9128-a5f633113078")
 		)
 		(instances
 			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/e4da0947-b13f-47c4-af36-48578442859c"
-					(reference "#PWR032")
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

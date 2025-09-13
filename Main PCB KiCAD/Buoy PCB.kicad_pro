@@ -645,24 +645,20 @@
       "Root"
     ],
     [
-      "e4da0947-b13f-47c4-af36-48578442859c",
-      "RS485 Interface"
+      "2c110aab-5675-460f-ab9c-7369f3e9e7a0",
+      "Shrimp"
     ],
     [
-      "e8f4d549-a7ac-4e6a-bad9-8d4daf54a22c",
+      "022691eb-6a52-45b1-ac3b-a806631f277d",
       "Solar"
     ],
     [
-      "435dc0a6-dd3d-415b-8797-8ccd529132c2",
-      "Battery Charger"
+      "d9a8ca03-ff66-4db5-998a-66a2672c57da",
+      "RS485 Interface"
     ],
     [
       "8208814c-02af-4705-82b9-f1fe898f5faf",
       "Top PCB"
-    ],
-    [
-      "2bb22ba2-be1c-4514-b874-b2be13e4be4c",
-      "Shrimp"
     ],
     [
       "402c8c5f-ad4a-46d2-a42e-eba9c7fe5855",
