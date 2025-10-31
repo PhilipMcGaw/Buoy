@@ -1,0 +1,39 @@
+{
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.markdownlint": "explicit"
+  },
+  
+	// The number of spaces a tab is equal to. This setting is overridden
+	// based on the file contents when `editor.detectIndentation` is true.
+	"editor.tabSize": 2,
+
+	// Insert spaces when pressing Tab. This setting is overriden
+	// based on the file contents when `editor.detectIndentation` is true.
+	"editor.insertSpaces": true,
+
+	// When opening a file, `editor.tabSize` and `editor.insertSpaces`
+	// will be detected based on the file contents. Set to false to keep
+	// the values you've explicitly set, above.
+	"editor.detectIndentation": false
+	
+	"editor.formatOnPaste": true,
+	"editor.formatOnSave": true,
+	"editor.cursorBlinking": "smooth",
+	
+	"editor.rulers": [80,120],
+
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  }
+
+  "[python]": {
+    "editor.tabSize": 4
+  },
+}
