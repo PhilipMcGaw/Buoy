@@ -1183,12 +1183,6 @@
 		(uuid "70b5c17c-4317-45cf-a759-9b9cd43f402f")
 	)
 	(junction
-		(at 87.63 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "898aeb95-676c-4852-ad2c-c7efda5e85fa")
-	)
-	(junction
 		(at 99.06 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1207,12 +1201,6 @@
 		(uuid "9d1c9cb5-25c8-4bfd-9fb5-f4fb48508d61")
 	)
 	(junction
-		(at 85.09 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aaed883c-bb3d-4c65-9079-4b948a20d7f7")
-	)
-	(junction
 		(at 116.84 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1223,12 +1211,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e291cca4-4c04-4089-bf17-e4eba35ccd6c")
-	)
-	(junction
-		(at 87.63 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3f7ecde-6562-4890-8d1b-828b2aedd0bf")
 	)
 	(junction
 		(at 99.06 92.71)
@@ -1266,26 +1248,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 53.34) (xy 90.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e37dea6-accc-46b4-9fc8-111fbc3d282d")
-	)
-	(wire
-		(pts
-			(xy 85.09 72.39) (xy 85.09 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "109d0280-fb63-4d71-9a3c-3b5e5b73b2be")
-	)
-	(wire
-		(pts
 			(xy 114.3 100.33) (xy 116.84 100.33)
 		)
 		(stroke
@@ -1293,16 +1255,6 @@
 			(type default)
 		)
 		(uuid "1162f758-0aa8-495d-a092-c996b5186b4d")
-	)
-	(wire
-		(pts
-			(xy 85.09 53.34) (xy 85.09 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "207a039d-5f81-42a3-983c-3612ae83be4d")
 	)
 	(wire
 		(pts
@@ -1326,26 +1278,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 72.39) (xy 87.63 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dfa7e8e-c650-4622-a4ab-507f84d0b8e6")
-	)
-	(wire
-		(pts
-			(xy 82.55 55.88) (xy 87.63 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ee7c778-11b0-49a4-bcb2-0f12de34cad0")
-	)
-	(wire
-		(pts
 			(xy 114.3 139.7) (xy 119.38 139.7)
 		)
 		(stroke
@@ -1353,16 +1285,6 @@
 			(type default)
 		)
 		(uuid "43d7bc33-8d60-4c59-9dae-1b7cb99b8605")
-	)
-	(wire
-		(pts
-			(xy 87.63 53.34) (xy 87.63 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4453cbd0-5d3d-404e-918b-52deaa69001c")
 	)
 	(wire
 		(pts
@@ -1486,16 +1408,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 72.39) (xy 82.55 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "865a6f64-60e9-4ac9-bcc1-6f1c2dad1ef5")
-	)
-	(wire
-		(pts
 			(xy 116.84 137.16) (xy 116.84 100.33)
 		)
 		(stroke
@@ -1503,16 +1415,6 @@
 			(type default)
 		)
 		(uuid "87aa90ca-5bb9-4482-b84d-4d98c03bb929")
-	)
-	(wire
-		(pts
-			(xy 82.55 77.47) (xy 87.63 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "895a7189-c8f0-4091-b730-d858cfbf2ba8")
 	)
 	(wire
 		(pts
@@ -1553,16 +1455,6 @@
 			(type default)
 		)
 		(uuid "9fcb5d82-367c-47cf-87c6-dc86c0535b27")
-	)
-	(wire
-		(pts
-			(xy 90.17 72.39) (xy 90.17 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a941907d-fc89-46a5-b0bf-4793aad6338b")
 	)
 	(wire
 		(pts
@@ -1666,16 +1558,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 55.88) (xy 87.63 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd4e2231-26b6-48b3-b4b8-1941b30462bf")
-	)
-	(wire
-		(pts
 			(xy 96.52 95.25) (xy 101.6 95.25)
 		)
 		(stroke
@@ -1713,117 +1595,6 @@
 			(type default)
 		)
 		(uuid "f2f3ff4e-127b-4828-bbda-14f76fe430d6")
-	)
-	(wire
-		(pts
-			(xy 82.55 58.42) (xy 82.55 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd449a4a-be86-428f-af77-66c7114c295f")
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x12_Pin")
-		(at 74.93 67.31 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e0e4a05-cb32-4da5-ac7f-348378d3d237")
-		(property "Reference" "J6"
-			(at 60.96 69.2151 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Top"
-			(at 60.96 66.6751 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Horizontal"
-			(at 74.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 74.93 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "343293e1-7080-45a9-ab48-fc8f6d64d655")
-		)
-		(pin "5"
-			(uuid "ba4f6827-b77e-4c34-bcea-4839e7d663b4")
-		)
-		(pin "3"
-			(uuid "bd49e9d5-9987-4252-8850-deb32d7d6390")
-		)
-		(pin "8"
-			(uuid "eccdbe4d-1d05-4763-8d41-b3a26d5c47d5")
-		)
-		(pin "6"
-			(uuid "ce04fca0-2ece-4be0-a3b8-add17904ddf7")
-		)
-		(pin "11"
-			(uuid "12322384-f761-4290-a6d5-a6b53fa9f23d")
-		)
-		(pin "10"
-			(uuid "53faa674-19c4-443e-8db1-5424c780a347")
-		)
-		(pin "7"
-			(uuid "8580266b-887b-44df-8410-c82e15c207ce")
-		)
-		(pin "12"
-			(uuid "e247866a-7272-43b2-94ea-dac076897a26")
-		)
-		(pin "4"
-			(uuid "8bc09f65-89a8-4656-a517-1feb622c4055")
-		)
-		(pin "9"
-			(uuid "4f79c010-1327-4d71-b218-435f4b5efc17")
-		)
-		(pin "1"
-			(uuid "f705559d-d40e-40c0-9e26-86b310eeef16")
-		)
-		(instances
-			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Pin")
@@ -2121,107 +1892,6 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Socket")
-		(at 74.93 63.5 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b031a84d-edfd-4bfe-9fe7-8bf807d080db")
-		(property "Reference" "J5"
-			(at 60.96 64.1351 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Top Interface"
-			(at 60.96 61.5951 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "b0870855-8f4d-4bd4-b451-31a11d9fee99")
-		)
-		(pin "12"
-			(uuid "80145251-bf32-4b2f-a79b-91917b3476d3")
-		)
-		(pin "8"
-			(uuid "5bce3585-279a-4c1e-b4db-66770637aa22")
-		)
-		(pin "11"
-			(uuid "1c5d7e1e-de2c-433f-8e18-8787e287b883")
-		)
-		(pin "3"
-			(uuid "7d376c0e-a434-4dd0-b71a-7a20bec026fa")
-		)
-		(pin "6"
-			(uuid "aa54d81d-dceb-4fe8-aca2-cb2309735a18")
-		)
-		(pin "4"
-			(uuid "7e1d49a4-017d-4ff5-ada2-acfce16bb07f")
-		)
-		(pin "1"
-			(uuid "485bc895-c552-419b-adeb-c5968341156f")
-		)
-		(pin "5"
-			(uuid "ac02f8d3-32d3-418e-8f41-0ecee0286bef")
-		)
-		(pin "7"
-			(uuid "8dd0e177-d7f1-4a46-ba84-246b6c977287")
-		)
-		(pin "2"
-			(uuid "2149d3f0-5529-4c6f-a83b-42f95da95159")
-		)
-		(pin "9"
-			(uuid "ec02a920-d6f9-455f-a9f2-2e196f8837c3")
-		)
-		(instances
-			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x12_Socket")
 		(at 106.68 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2416,16 +2086,6 @@
 				(hide yes)
 			)
 		)
-		(pin "NeoPixle_Out" output
-			(at 90.17 80.01 90)
-			(uuid "19574db1-943f-4b44-bf9d-56e75e5bdbd6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Front_PCB_+5V" output
 			(at 85.09 80.01 90)
 			(uuid "ec949e53-576c-4f04-8213-060656bfc3e7")
@@ -2450,79 +2110,6 @@
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9"
 					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 59.69 20.32)
-		(size 34.29 33.02)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8208814c-02af-4705-82b9-f1fe898f5faf")
-		(property "Sheetname" "Top PCB"
-			(at 58.9784 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Top.kicad_sch"
-			(at 94.5646 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "NeoPixle_In" input
-			(at 90.17 53.34 270)
-			(uuid "090e783b-4c4b-4996-b1b7-13f75f56d558")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Top_PCB_+5V" input
-			(at 85.09 53.34 270)
-			(uuid "b900c7bf-14bd-4e9c-b657-4af4afaae01a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Top_PCB_GND" input
-			(at 87.63 53.34 270)
-			(uuid "d892ae7c-1657-461f-b98e-b3b2cc50f00e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9"
-					(page "6")
 				)
 			)
 		)
