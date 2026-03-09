@@ -643,6 +643,10 @@
     [
       "849c046a-e359-47ad-bf6f-ca3e76d718de",
       "Root"
+    ],
+    [
+      "8c0a1d67-5070-453d-8849-1d8f10b489f1",
+      "RS485_UART"
     ]
   ],
   "text_variables": {}
