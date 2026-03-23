@@ -1,4 +1,4 @@
 (fp_lib_table
-  (version 7)
-  (lib (name "Skippy's")(type "KiCad")(uri "${KIPRJMOD}/footprints")(options "")(descr ""))
+	(version 7)
+	(lib (name "KiCad Footprints") (type "KiCad") (uri "${KIPRJMOD}/Common/Footprints") (options "") (descr ""))
 )
