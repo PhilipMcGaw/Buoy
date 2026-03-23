@@ -1343,92 +1343,92 @@
 		)
 	)
 	(junction
-		(at 134.62 134.62)
+		(at 134.62 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e8ea36e-f564-4462-a3c6-f4df0f7725b2")
 	)
 	(junction
-		(at 132.08 100.33)
+		(at 132.08 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17bf8f01-fe26-43d4-bf8d-24619d779ab5")
 	)
 	(junction
-		(at 134.62 95.25)
+		(at 134.62 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "279546e4-769c-41c0-929c-34743bc67bf0")
 	)
 	(junction
-		(at 104.14 92.71)
+		(at 104.14 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d275f7e-a8a3-4ff5-9eb3-2c8d5606295c")
 	)
 	(junction
-		(at 101.6 97.79)
+		(at 101.6 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3eb3c897-fa14-4fe2-af78-4ed3f87941e7")
 	)
 	(junction
-		(at 106.68 102.87)
+		(at 106.68 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5419a870-bd0e-47b6-8629-0bea369f9349")
 	)
 	(junction
-		(at 101.6 100.33)
+		(at 101.6 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "551dce31-c49a-48a3-9a5f-f566af2c67fa")
 	)
 	(junction
-		(at 101.6 139.7)
+		(at 101.6 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba974662-f7eb-4836-bd7f-3bfb06720933")
 	)
 	(junction
-		(at 104.14 134.62)
+		(at 104.14 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c10afe1c-394d-4673-aa35-004b665e7e4c")
 	)
 	(junction
-		(at 129.54 102.87)
+		(at 129.54 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd9d224a-b020-4889-bac3-b1341e73f5d3")
 	)
 	(junction
-		(at 104.14 95.25)
+		(at 104.14 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d44fe174-0b81-475a-bfea-37ecfd81febb")
 	)
 	(junction
-		(at 132.08 139.7)
+		(at 132.08 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1ec1faa-32fd-4f52-91f2-bc188a129e3d")
 	)
 	(junction
-		(at 132.08 97.79)
+		(at 132.08 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7363cb7-cef5-46b2-bc52-942960772610")
 	)
 	(junction
-		(at 134.62 92.71)
+		(at 134.62 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe95cd82-ef53-43ee-8d4d-807d48083629")
 	)
 	(wire
 		(pts
-			(xy 132.08 139.7) (xy 132.08 142.24)
+			(xy 132.08 116.84) (xy 132.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1438,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 102.87) (xy 129.54 102.87)
+			(xy 124.46 80.01) (xy 129.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 95.25) (xy 134.62 92.71)
+			(xy 134.62 72.39) (xy 134.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 100.33) (xy 132.08 100.33)
+			(xy 124.46 77.47) (xy 132.08 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1468,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 134.62) (xy 134.62 134.62)
+			(xy 124.46 111.76) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1478,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 137.16) (xy 134.62 137.16)
+			(xy 124.46 114.3) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 85.09) (xy 129.54 85.09)
+			(xy 119.38 62.23) (xy 129.54 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 80.01) (xy 134.62 80.01)
+			(xy 119.38 57.15) (xy 134.62 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 80.01) (xy 104.14 92.71)
+			(xy 104.14 57.15) (xy 104.14 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 139.7) (xy 101.6 142.24)
+			(xy 101.6 116.84) (xy 101.6 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1528,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 101.6 100.33)
+			(xy 101.6 74.93) (xy 101.6 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +1538,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 104.14 92.71)
+			(xy 93.98 69.85) (xy 104.14 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1548,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 97.79) (xy 132.08 97.79)
+			(xy 124.46 74.93) (xy 132.08 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 129.54 102.87)
+			(xy 129.54 62.23) (xy 129.54 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1568,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 142.24) (xy 132.08 142.24)
+			(xy 124.46 119.38) (xy 132.08 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 80.01) (xy 134.62 92.71)
+			(xy 134.62 57.15) (xy 134.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 101.6 82.55)
+			(xy 101.6 74.93) (xy 101.6 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1598,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 95.25) (xy 104.14 134.62)
+			(xy 104.14 72.39) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 80.01) (xy 114.3 80.01)
+			(xy 104.14 57.15) (xy 114.3 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 114.3 82.55)
+			(xy 101.6 59.69) (xy 114.3 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1628,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 82.55) (xy 132.08 82.55)
+			(xy 119.38 59.69) (xy 132.08 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 95.25) (xy 134.62 134.62)
+			(xy 134.62 72.39) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 100.33) (xy 132.08 139.7)
+			(xy 132.08 77.47) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 95.25) (xy 109.22 95.25)
+			(xy 104.14 72.39) (xy 109.22 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 92.71) (xy 109.22 92.71)
+			(xy 104.14 69.85) (xy 109.22 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 137.16) (xy 134.62 134.62)
+			(xy 134.62 114.3) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 142.24 102.87)
+			(xy 129.54 80.01) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 137.16) (xy 104.14 134.62)
+			(xy 104.14 114.3) (xy 104.14 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1708,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 85.09) (xy 114.3 85.09)
+			(xy 106.68 62.23) (xy 114.3 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1718,7 +1718,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 100.33) (xy 101.6 139.7)
+			(xy 101.6 77.47) (xy 101.6 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1728,7 +1728,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 139.7) (xy 109.22 139.7)
+			(xy 101.6 116.84) (xy 109.22 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1738,7 +1738,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 134.62) (xy 109.22 134.62)
+			(xy 104.14 111.76) (xy 109.22 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1748,7 +1748,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 95.25) (xy 134.62 95.25)
+			(xy 124.46 72.39) (xy 134.62 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1758,7 +1758,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 92.71) (xy 134.62 92.71)
+			(xy 124.46 69.85) (xy 134.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1768,7 +1768,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 85.09) (xy 106.68 102.87)
+			(xy 106.68 62.23) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1778,7 +1778,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 132.08 139.7)
+			(xy 124.46 116.84) (xy 132.08 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1788,7 +1788,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 92.71) (xy 104.14 95.25)
+			(xy 104.14 69.85) (xy 104.14 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1798,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 142.24) (xy 101.6 142.24)
+			(xy 109.22 119.38) (xy 101.6 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1808,7 +1808,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 97.79) (xy 109.22 97.79)
+			(xy 101.6 74.93) (xy 109.22 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1818,7 +1818,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 97.79) (xy 132.08 100.33)
+			(xy 132.08 74.93) (xy 132.08 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1828,7 +1828,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 142.24 92.71)
+			(xy 134.62 69.85) (xy 142.24 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1838,7 +1838,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 102.87) (xy 106.68 102.87)
+			(xy 93.98 80.01) (xy 106.68 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1848,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 102.87) (xy 109.22 102.87)
+			(xy 106.68 80.01) (xy 109.22 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1858,7 +1858,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 97.79) (xy 101.6 97.79)
+			(xy 93.98 74.93) (xy 101.6 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1868,7 +1868,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 104.14 137.16)
+			(xy 109.22 114.3) (xy 104.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1878,7 +1878,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 82.55) (xy 132.08 97.79)
+			(xy 132.08 59.69) (xy 132.08 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1888,7 +1888,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 97.79) (xy 142.24 97.79)
+			(xy 132.08 74.93) (xy 142.24 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1898,7 +1898,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 100.33) (xy 109.22 100.33)
+			(xy 101.6 77.47) (xy 109.22 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1908,7 +1908,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 116.84 85.09 0)
+		(at 116.84 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1919,7 +1919,7 @@
 		(fields_autoplaced yes)
 		(uuid "161150d5-21e8-4b9a-bde4-b05afd6c005d")
 		(property "Reference" "NT3"
-			(at 116.84 82.55 0)
+			(at 116.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1930,7 +1930,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 116.84 82.55 0)
+			(at 116.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1941,7 +1941,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 116.84 85.09 0)
+			(at 116.84 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1952,7 +1952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 85.09 0)
+			(at 116.84 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1963,7 +1963,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 116.84 85.09 0)
+			(at 116.84 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1990,7 +1990,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Pin")
-		(at 119.38 105.41 0)
+		(at 119.38 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2001,7 +2001,7 @@
 		(fields_autoplaced yes)
 		(uuid "206cf550-703d-4a7c-bec6-2e9623893475")
 		(property "Reference" "J4"
-			(at 120.015 87.63 0)
+			(at 120.015 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2011,7 +2011,7 @@
 			)
 		)
 		(property "Value" "Back A"
-			(at 120.015 90.17 0)
+			(at 120.015 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2021,7 +2021,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
-			(at 119.38 105.41 0)
+			(at 119.38 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2032,7 +2032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 105.41 0)
+			(at 119.38 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2043,7 +2043,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 119.38 105.41 0)
+			(at 119.38 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2100,7 +2100,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 116.84 82.55 0)
+		(at 116.84 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2111,7 +2111,7 @@
 		(fields_autoplaced yes)
 		(uuid "32db91af-89c6-4ab8-b319-3504f305b864")
 		(property "Reference" "NT1"
-			(at 116.84 80.01 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2122,7 +2122,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 116.84 80.01 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2133,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 116.84 82.55 0)
+			(at 116.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2144,7 +2144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 82.55 0)
+			(at 116.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2155,7 +2155,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 116.84 82.55 0)
+			(at 116.84 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2182,7 +2182,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Socket")
-		(at 114.3 105.41 0)
+		(at 114.3 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2193,7 +2193,7 @@
 		(fields_autoplaced yes)
 		(uuid "53fcc075-69c7-4739-8269-ec3d81b2dfb7")
 		(property "Reference" "J2"
-			(at 113.665 123.19 0)
+			(at 113.665 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2203,7 +2203,7 @@
 			)
 		)
 		(property "Value" "Front A"
-			(at 113.665 125.73 0)
+			(at 113.665 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2213,7 +2213,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
-			(at 114.3 105.41 0)
+			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2224,7 +2224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 105.41 0)
+			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2235,7 +2235,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 114.3 105.41 0)
+			(at 114.3 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2292,7 +2292,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Pin")
-		(at 119.38 147.32 0)
+		(at 119.38 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2303,7 +2303,7 @@
 		(fields_autoplaced yes)
 		(uuid "77cdec07-7b23-4ef7-830c-823f7ebe15f7")
 		(property "Reference" "J3"
-			(at 120.015 129.54 0)
+			(at 120.015 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2313,7 +2313,7 @@
 			)
 		)
 		(property "Value" "Back B"
-			(at 120.015 132.08 0)
+			(at 120.015 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2323,7 +2323,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
-			(at 119.38 147.32 0)
+			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2334,7 +2334,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 147.32 0)
+			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2345,7 +2345,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 119.38 147.32 0)
+			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2402,7 +2402,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_2")
-		(at 116.84 80.01 0)
+		(at 116.84 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2413,7 +2413,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3c5598d-46b6-415b-81b6-54ff786bf0f0")
 		(property "Reference" "NT2"
-			(at 116.84 77.47 0)
+			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2424,7 +2424,7 @@
 			)
 		)
 		(property "Value" "NetTie_2"
-			(at 116.84 77.47 0)
+			(at 116.84 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2435,7 +2435,7 @@
 			)
 		)
 		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
-			(at 116.84 80.01 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2446,7 +2446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 80.01 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2457,7 +2457,7 @@
 			)
 		)
 		(property "Description" "Net tie, 2 pins"
-			(at 116.84 80.01 0)
+			(at 116.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2484,7 +2484,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x12_Socket")
-		(at 114.3 147.32 0)
+		(at 114.3 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2495,7 +2495,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb4a113d-3512-4c25-82f7-34f3ad8616e7")
 		(property "Reference" "J1"
-			(at 113.665 165.1 0)
+			(at 113.665 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2505,7 +2505,7 @@
 			)
 		)
 		(property "Value" "Front B"
-			(at 113.665 167.64 0)
+			(at 113.665 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2515,7 +2515,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical"
-			(at 114.3 147.32 0)
+			(at 114.3 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 147.32 0)
+			(at 114.3 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2537,7 +2537,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x12, script generated"
-			(at 114.3 147.32 0)
+			(at 114.3 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2593,7 +2593,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 80.01)
+		(at 142.24 57.15)
 		(size 34.29 93.98)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2609,7 +2609,7 @@
 		)
 		(uuid "2b71a53e-4a43-4bc8-a314-937e96c041a6")
 		(property "Sheetname" "Back PCB"
-			(at 142.24 79.2984 0)
+			(at 142.24 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2620,7 +2620,7 @@
 			)
 		)
 		(property "Sheetfile" "Back PCB.kicad_sch"
-			(at 142.24 174.5746 0)
+			(at 142.24 151.7146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2632,7 +2632,7 @@
 			)
 		)
 		(pin "Back_PCB_+5V" input
-			(at 142.24 92.71 180)
+			(at 142.24 69.85 180)
 			(uuid "d4c20415-0989-4053-a277-5566e099b1ca")
 			(effects
 				(font
@@ -2642,7 +2642,7 @@
 			)
 		)
 		(pin "Back_PCB_GND" input
-			(at 142.24 97.79 180)
+			(at 142.24 74.93 180)
 			(uuid "d9dd09e1-ce3d-4107-96b4-b311f10ec7c0")
 			(effects
 				(font
@@ -2652,7 +2652,7 @@
 			)
 		)
 		(pin "NeoPixle_Connect_in" input
-			(at 142.24 102.87 180)
+			(at 142.24 80.01 180)
 			(uuid "955ab0ed-cc7b-444a-b865-73f6e00f3041")
 			(effects
 				(font
@@ -2670,7 +2670,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 80.01)
+		(at 59.69 57.15)
 		(size 34.29 95.25)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2686,7 +2686,7 @@
 		)
 		(uuid "402c8c5f-ad4a-46d2-a42e-eba9c7fe5855")
 		(property "Sheetname" "Front PCB"
-			(at 59.69 79.2984 0)
+			(at 59.69 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2697,7 +2697,7 @@
 			)
 		)
 		(property "Sheetfile" "Front PCB.kicad_sch"
-			(at 59.69 175.8446 0)
+			(at 59.69 152.9846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2709,7 +2709,7 @@
 			)
 		)
 		(pin "Front_PCB_+5V" output
-			(at 93.98 92.71 0)
+			(at 93.98 69.85 0)
 			(uuid "ec949e53-576c-4f04-8213-060656bfc3e7")
 			(effects
 				(font
@@ -2719,7 +2719,7 @@
 			)
 		)
 		(pin "Front_PCB_GND" output
-			(at 93.98 97.79 0)
+			(at 93.98 74.93 0)
 			(uuid "eec83df0-9242-4e46-9cb9-d30d25d26a42")
 			(effects
 				(font
@@ -2729,7 +2729,7 @@
 			)
 		)
 		(pin "NeoPixle_Connect_out" output
-			(at 93.98 102.87 0)
+			(at 93.98 80.01 0)
 			(uuid "8432d578-7d30-416f-838e-31679d8f8a4a")
 			(effects
 				(font
