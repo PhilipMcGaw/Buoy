@@ -1,0 +1,213 @@
+(footprint "5mm LED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Scouting 5mm LED, Large Pads Handsolder")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 1.27 -3.96 0)
+		(layer "F.SilkS")
+		(uuid "d6143132-7179-4f6a-a11f-da706f70f31f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "5mm LED"
+		(at 1.27 3.96 0)
+		(layer "F.Fab")
+		(uuid "fb47244a-c778-4a43-92a4-a32be7178896")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62e841db-9f6a-4bd6-a36d-f5af014a9da3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e1fb9f0-f6b9-4d57-9e25-975b6c5f7566")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.29 -1.545)
+		(end -1.29 1.545)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ea55f21-927f-45e5-a977-796b2bb4b97a")
+	)
+	(fp_arc
+		(start -1.29 -1.54483)
+		(mid 2.071779 -2.880495)
+		(end 4.26 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2a472aa2-02f0-4ce6-a4ff-71ef12dd8b3c")
+	)
+	(fp_arc
+		(start 4.26 0)
+		(mid 2.071779 2.880495)
+		(end -1.29 1.54483)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5163e85-5fe2-4dda-a9a7-c8479a26aa5b")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "83c5780f-e24c-46d0-bf89-d67c43dfb3b2")
+	)
+	(fp_line
+		(start -1.94 -3.21)
+		(end -1.94 3.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "13c81e9d-b4ae-46fb-9573-c1400985e63f")
+	)
+	(fp_line
+		(start -1.94 3.21)
+		(end 4.49 3.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78c15b29-1822-488e-b4a7-fc47670e298d")
+	)
+	(fp_line
+		(start 4.49 -3.21)
+		(end -1.94 -3.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ee62873-3270-4272-a4e1-73ad7f8446e8")
+	)
+	(fp_line
+		(start 4.49 3.21)
+		(end 4.49 -3.21)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "475667b8-4350-4cca-9621-eacdd7f402d0")
+	)
+	(fp_line
+		(start -1.23 -1.469694)
+		(end -1.23 1.469694)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66c31e4f-5485-4d75-b42e-c2f3af95941b")
+	)
+	(fp_arc
+		(start -1.23 -1.469694)
+		(mid 4.17 0)
+		(end -1.23 1.469694)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2f93857-4050-4cee-b7a4-3cd7261c8deb")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 3.77 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c73c88fc-e408-4138-8d0a-c8be493bb67e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 0 0)
+		(layer "F.Fab")
+		(uuid "852a1434-f121-4541-9639-f0efe71b64bf")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.5 3)
+		(drill 0.9
+			(offset -0.25 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8cf6c36-d54c-467c-8531-922e84b8bb28")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0)
+		(size 2.5 3)
+		(drill 0.9
+			(offset 0.25 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66e4207a-fd0c-4682-beff-b6ac6f8120c4")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
