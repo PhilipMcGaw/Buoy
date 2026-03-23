@@ -675,17 +675,13 @@
         "uuid": "a041e2a6-7d41-458c-91f3-753821d3dfe9"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U3",
     "variants": []
   },
   "sheets": [
     [
       "a041e2a6-7d41-458c-91f3-753821d3dfe9",
       "Buoy PCB"
-    ],
-    [
-      "2c110aab-5675-460f-ab9c-7369f3e9e7a0",
-      "Shrimp"
     ],
     [
       "022691eb-6a52-45b1-ac3b-a806631f277d",

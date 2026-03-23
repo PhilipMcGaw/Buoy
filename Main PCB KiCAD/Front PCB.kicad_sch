@@ -349,6 +349,1264 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KiCad Symbols:Pimoroni PGA2350"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 14.478 38.1 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "Pimoroni PGA2350"
+				(at 1.524 -41.91 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "KiCad Footprints:PGA2350"
+				(at 11.43 -50.292 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://shop.pimoroni.com/products/pga2350"
+				(at 36.83 -47.752 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Description" "A minimal but powerful RP2350 breakout board modelled on a Pin Grid Array, with the maximum exposed pins crammed into the smallest possible space."
+				(at 206.756 -45.212 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "ki_keywords" "Pimoroni PGA2350"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PGA2350"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Pimoroni PGA2350_0_1"
+				(rectangle
+					(start -15.24 40.64)
+					(end 15.24 -40.64)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Pimoroni PGA2350_1_1"
+				(pin power_in line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 43.18 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 43.18 270)
+					(length 2.54)
+					(name "3V3_EN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 43.18 270)
+					(length 2.54)
+					(name "RUN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 30.48 0)
+					(length 2.54)
+					(name "USB_D+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 27.94 0)
+					(length 2.54)
+					(name "USB_D-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 43.18 270)
+					(length 2.54)
+					(name "BOOTSEL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 5.08 0)
+					(length 2.54)
+					(name "GP46/ADC6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 2.54)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -5.08 43.18 270)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 22.86 0)
+					(length 2.54)
+					(name "ADC_VREF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 38.1 0)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 35.56 0)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 2.54)
+					(name "GP47/ADC7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 7.62 0)
+					(length 2.54)
+					(name "GP45/ADC5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -12.7 0)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 2.54)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 12.7 0)
+					(length 2.54)
+					(name "GP43/ADC3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 2.54)
+					(name "GP44/ADC4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -17.78 0)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 17.78 0)
+					(length 2.54)
+					(name "GP41/ADC1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 15.24 0)
+					(length 2.54)
+					(name "GP42/ADC2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -22.86 0)
+					(length 2.54)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -20.32 0)
+					(length 2.54)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -35.56 180)
+					(length 2.54)
+					(name "GP39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 20.32 0)
+					(length 2.54)
+					(name "GP40/ADC0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -27.94 0)
+					(length 2.54)
+					(name "GP10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -25.4 0)
+					(length 2.54)
+					(name "GP9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -30.48 180)
+					(length 2.54)
+					(name "GP37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -33.02 180)
+					(length 2.54)
+					(name "GP38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -33.02 0)
+					(length 2.54)
+					(name "GP12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -30.48 0)
+					(length 2.54)
+					(name "GP11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -25.4 180)
+					(length 2.54)
+					(name "GP35"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -27.94 180)
+					(length 2.54)
+					(name "GP36"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 27.94 180)
+					(length 2.54)
+					(name "GP14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -35.56 0)
+					(length 2.54)
+					(name "GP13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -20.32 180)
+					(length 2.54)
+					(name "GP33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "GP34"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 22.86 180)
+					(length 2.54)
+					(name "GP16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 25.4 180)
+					(length 2.54)
+					(name "GP15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 15.24 180)
+					(length 2.54)
+					(name "GP19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 10.16 180)
+					(length 2.54)
+					(name "GP21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 5.08 180)
+					(length 2.54)
+					(name "GP23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "GP25"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 2.54)
+					(name "GP27"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 2.54)
+					(name "GP29"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "GP31"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -17.78 180)
+					(length 2.54)
+					(name "GP32"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 20.32 180)
+					(length 2.54)
+					(name "GP17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 180)
+					(length 2.54)
+					(name "GP18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 12.7 180)
+					(length 2.54)
+					(name "GP20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 7.62 180)
+					(length 2.54)
+					(name "GP22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 2.54)
+					(name "GP24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 2.54)
+					(name "GP26"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "GP28"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 2.54)
+					(name "GP30"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
@@ -937,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 81.28) (xy 199.39 81.28)
+			(xy 176.53 116.84) (xy 194.31 116.84)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 83.82) (xy 134.62 83.82)
+			(xy 135.89 60.96) (xy 140.97 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1007,7 +2265,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 134.62 106.68)
+			(xy 135.89 83.82) (xy 140.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +2274,7 @@
 		(uuid "abf327ad-0dbf-48d3-86b4-910d12f6124e")
 	)
 	(label "V_Solar_An"
-		(at 129.54 83.82 180)
+		(at 135.89 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1026,7 +2284,7 @@
 		(uuid "3b7be672-e24a-4f4a-9e58-547ad59dbb57")
 	)
 	(label "NeoPixle_Out"
-		(at 199.39 81.28 180)
+		(at 194.31 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1036,7 +2294,7 @@
 		(uuid "767d5418-c16f-41a0-a1aa-76270d288203")
 	)
 	(label "Heart Beat"
-		(at 129.54 106.68 180)
+		(at 135.89 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1604,6 +2862,275 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad Symbols:Pimoroni PGA2350")
+		(at 158.75 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fb27dcb-74ae-4d2a-b78c-905364e41cf5")
+		(property "Reference" "U3"
+			(at 160.7186 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Pimoroni PGA2350"
+			(at 160.7186 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad Footprints:PGA2350"
+			(at 170.18 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://shop.pimoroni.com/products/pga2350"
+			(at 195.58 129.032 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "A minimal but powerful RP2350 breakout board modelled on a Pin Grid Array, with the maximum exposed pins crammed into the smallest possible space."
+			(at 365.506 126.492 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "15"
+			(uuid "c95a6e1d-48db-4e91-ba72-390b03c1b2ea")
+		)
+		(pin "21"
+			(uuid "ea11e053-bf61-4f38-924d-b544d8898ac4")
+		)
+		(pin "23"
+			(uuid "3b8e01fa-0792-4ab2-82b8-89e29d935905")
+		)
+		(pin "6"
+			(uuid "5bcdd42b-4e28-4747-9c38-cd25b535ea5a")
+		)
+		(pin "27"
+			(uuid "c0fea604-7241-4ae5-8014-f2c57ee5399a")
+		)
+		(pin "1"
+			(uuid "868830c7-bee0-440a-8355-c14faefa0af1")
+		)
+		(pin "9"
+			(uuid "8e5a66b1-8a5e-40aa-ac9d-1596d5da1045")
+		)
+		(pin "13"
+			(uuid "efa9e1b5-9386-44bb-a8c6-ca110c9ec995")
+		)
+		(pin "24"
+			(uuid "12fda376-dbff-471d-89a0-57b774b7b6a5")
+		)
+		(pin "2"
+			(uuid "24d73f2d-ae5f-484b-9b04-c5601fecdd80")
+		)
+		(pin "5"
+			(uuid "1e24a04a-b811-4434-bebd-f5c55557d356")
+		)
+		(pin "7"
+			(uuid "919e8ef2-9c09-4d72-b4fa-dce8037b7d54")
+		)
+		(pin "11"
+			(uuid "2d306140-1e3c-4451-8409-3e68fe17ffa2")
+		)
+		(pin "4"
+			(uuid "4ad336ea-bc12-46a2-bae5-c50a7a31e092")
+		)
+		(pin "10"
+			(uuid "9f2add12-735e-4e51-bcb1-24c1bffee6d7")
+		)
+		(pin "12"
+			(uuid "a4da601a-110e-490d-a9e7-7049f836d2d2")
+		)
+		(pin "14"
+			(uuid "4cad5926-81a5-41fa-9104-b57bc7d50cd9")
+		)
+		(pin "8"
+			(uuid "077bffb6-6f08-4645-aba3-28c9ae4d82b3")
+		)
+		(pin "16"
+			(uuid "c7e44c97-e19b-4d4d-bde6-b5ea85c0bfdf")
+		)
+		(pin "17"
+			(uuid "e9300540-7784-4fee-b2c4-30150581737e")
+		)
+		(pin "19"
+			(uuid "ec8d5018-ff8d-41ca-8ac4-a73bd0a99cb8")
+		)
+		(pin "20"
+			(uuid "7c9703ab-529f-4410-bcc5-ba13a8af71ff")
+		)
+		(pin "3"
+			(uuid "2b32175e-73b1-417a-adc6-fd03a7f39ef8")
+		)
+		(pin "18"
+			(uuid "863539c2-e394-4b06-93f1-1f08fb71d842")
+		)
+		(pin "22"
+			(uuid "1b8fdd2f-9a65-428b-9df1-2fa00062d5f8")
+		)
+		(pin "25"
+			(uuid "093964e4-0894-49b0-a112-8463f0fa0c02")
+		)
+		(pin "26"
+			(uuid "95af07e6-70f9-4d06-b3f3-7ca58f0662e1")
+		)
+		(pin "29"
+			(uuid "390fed15-cf03-49a9-b5a1-9af76b878708")
+		)
+		(pin "44"
+			(uuid "86ff184a-0866-4305-941b-8f3cc39106ed")
+		)
+		(pin "38"
+			(uuid "323e94a5-d672-4c22-9636-5558d166de27")
+		)
+		(pin "49"
+			(uuid "c4a9c885-ea55-474f-a7e8-8926d9b8caae")
+		)
+		(pin "34"
+			(uuid "7993d939-44fd-4b53-a668-7623937b2a90")
+		)
+		(pin "36"
+			(uuid "dfc4e22f-25a3-4298-906d-13354fe120b0")
+		)
+		(pin "39"
+			(uuid "de7fbff6-19ff-4bc1-8645-a501af0f9ec6")
+		)
+		(pin "40"
+			(uuid "e98d45d6-983e-47a2-b0fc-26abd4e7c337")
+		)
+		(pin "42"
+			(uuid "33a2b98d-5f76-4426-a50f-3bfb1bfd2fb6")
+		)
+		(pin "45"
+			(uuid "706050f9-c8cd-4454-a6f7-73c338989ae4")
+		)
+		(pin "59"
+			(uuid "c4040124-cf59-42af-b430-40f99a884d24")
+		)
+		(pin "28"
+			(uuid "3f3db5d5-a787-474b-97f6-6dd84a1b9c53")
+		)
+		(pin "37"
+			(uuid "43f12af5-8113-4726-8993-d2db2b2482be")
+		)
+		(pin "46"
+			(uuid "4b286533-400a-4058-911e-2e87a8525f91")
+		)
+		(pin "53"
+			(uuid "6341fa2e-66d9-4654-a259-15a93ff3230c")
+		)
+		(pin "60"
+			(uuid "f5cb38a3-8918-4931-8fbe-1ef0cf24b603")
+		)
+		(pin "43"
+			(uuid "f9b70b35-d52c-493d-b671-b32fee557363")
+		)
+		(pin "33"
+			(uuid "761fe5bf-1775-40fc-869d-1964a65cbc92")
+		)
+		(pin "35"
+			(uuid "96952658-62df-4c03-967d-48a313aa7a95")
+		)
+		(pin "52"
+			(uuid "4121deaa-e0eb-4b94-8a74-1d77388d39f5")
+		)
+		(pin "62"
+			(uuid "1c585ad7-73c1-4e70-9423-9e2acc0614db")
+		)
+		(pin "30"
+			(uuid "7989a25b-9e9e-4ea2-a690-2370ac0539b5")
+		)
+		(pin "31"
+			(uuid "b14777e2-f509-4b51-a50e-f2ba2d349a72")
+		)
+		(pin "32"
+			(uuid "ef089620-d2f4-4a8a-a533-1525914a139a")
+		)
+		(pin "41"
+			(uuid "8bead8a0-bc3b-4029-ba65-69e181bc8395")
+		)
+		(pin "47"
+			(uuid "5aa7dad0-b621-4671-90d8-27b383288857")
+		)
+		(pin "48"
+			(uuid "b30a0ace-3c3c-43df-801e-a8fa9d0c5eb0")
+		)
+		(pin "50"
+			(uuid "739af639-fc9a-4074-8bbe-0ca82794999a")
+		)
+		(pin "51"
+			(uuid "3a9f2db6-e872-47b1-86e4-bdb0b8079695")
+		)
+		(pin "54"
+			(uuid "c187cdab-deef-4c25-b2ed-cb71b1a21559")
+		)
+		(pin "56"
+			(uuid "9ea4590c-48e3-4b69-87c2-a506674b5148")
+		)
+		(pin "57"
+			(uuid "c9e907fb-19b1-460f-ae4c-43512f1c41f4")
+		)
+		(pin "55"
+			(uuid "79643180-3c06-4ea5-8012-900de106e7c7")
+		)
+		(pin "58"
+			(uuid "917db4ad-15bd-4f41-888d-442794d8a54f")
+		)
+		(pin "61"
+			(uuid "11b40ece-9fbc-4ff9-8ce5-f8ea5d65c082")
+		)
+		(pin "63"
+			(uuid "30de08fc-3c0b-42e0-9378-6abd05a54586")
+		)
+		(pin "64"
+			(uuid "9bb856e0-23e3-486c-b1a6-a0b1736ecd30")
+		)
+		(instances
+			(project "Buoy PCB"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 40.64 78.74 0)
 		(unit 1)
@@ -2055,213 +3582,6 @@
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 134.62 77.47)
-		(size 46.99 34.29)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "2c110aab-5675-460f-ab9c-7369f3e9e7a0")
-		(property "Sheetname" "Shrimp"
-			(at 134.62 76.7584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Shrimp.kicad_sch"
-			(at 134.62 112.3446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GPIO_4 {slash} ADC1_CH3" bidirectional
-			(at 134.62 83.82 180)
-			(uuid "b1cadd95-d09e-4da7-be64-573fa7d033c6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_5 {slash} ADC1_CH4" bidirectional
-			(at 134.62 86.36 180)
-			(uuid "95646c10-fe38-4ce4-8f2c-8c4588cc4aee")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_6 {slash} ADC1_CH5" bidirectional
-			(at 134.62 88.9 180)
-			(uuid "40a5ed5c-aa4d-4383-8219-aa7ee7c502c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_7 {slash} ADC1_CH6" bidirectional
-			(at 134.62 91.44 180)
-			(uuid "e8d23542-359e-4e6d-a321-14b3b03f9559")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_15  {slash} ADC2_CH4" bidirectional
-			(at 134.62 99.06 180)
-			(uuid "6ee10ad5-e05c-428e-b224-f3752d17d285")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_16  {slash} ADC2_CH5" bidirectional
-			(at 134.62 101.6 180)
-			(uuid "2b6ce502-8dcb-4258-8990-f806f7c5c01b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_17  {slash} ADC2_CH6" bidirectional
-			(at 134.62 104.14 180)
-			(uuid "129d4504-a635-422b-9270-04b69e318ae5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_18  {slash} HeartBeat_LED" bidirectional
-			(at 134.62 106.68 180)
-			(uuid "488070df-c1b5-4b1f-a047-1b3bd554f730")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_26" bidirectional
-			(at 134.62 109.22 180)
-			(uuid "fb7960b3-c7e0-4453-b232-87082295dcd7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "GPIO_37" bidirectional
-			(at 181.61 81.28 0)
-			(uuid "c56b3bcd-5d37-474e-b9da-f018c8ea520d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C_SCL" bidirectional
-			(at 181.61 87.63 0)
-			(uuid "6c05933d-d88d-45c4-b666-9b32605fc1d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C_SDA" bidirectional
-			(at 181.61 90.17 0)
-			(uuid "32b87bb5-909b-4f3d-941f-14597788f0a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MISO" bidirectional
-			(at 181.61 92.71 0)
-			(uuid "58ba3856-b095-4109-8389-1bf1473438ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MOSI" bidirectional
-			(at 181.61 95.25 0)
-			(uuid "7e539e52-9190-4b53-832f-93658cbfa5d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "RXD" bidirectional
-			(at 181.61 97.79 0)
-			(uuid "68e8f210-2c7a-4a48-80a5-f4b9b89deb81")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TXD" bidirectional
-			(at 181.61 100.33 0)
-			(uuid "718dbe43-b616-427d-947a-b8220b11b88d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855"
-					(page "2")
 				)
 			)
 		)
