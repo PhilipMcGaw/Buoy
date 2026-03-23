@@ -1776,7 +1776,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "LED Cube:PGA2350"
+			(property "Footprint" "KiCad Footprints:PGA2350"
 				(at 11.43 -50.292 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1788,7 +1788,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://docs.arduino.cc/resources/datasheets/ABX00053-datasheet.pdf"
+			(property "Datasheet" "https://shop.pimoroni.com/products/pga2350"
 				(at 36.83 -47.752 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1799,7 +1799,7 @@
 					)
 				)
 			)
-			(property "Description" "Arduino Nano board based on the RP2040 microcontroller with a dual-core 133 MHz ARM Cortex-M0+ processor, 264 kB SRAM, and up to 16 MB flash memory. Operates at 3.3V, with 5V Micro USB input and 4-20V VIN. Features Wi-Fi®, Bluetooth® LE, digital and analog pins, and supports SPI, I2C, UART, and PIO. Includes a 6-axis IMU, RGB LED, microphone, and cryptographic chip for secure communication."
+			(property "Description" "A minimal but powerful RP2350 breakout board modelled on a Pin Grid Array, with the maximum exposed pins crammed into the smallest possible space."
 				(at 206.756 -45.212 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1821,7 +1821,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Arduino*Nano*"
+			(property "ki_fp_filters" "PGA2350"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5251,7 +5251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED Cube:PGA2350"
+		(property "Footprint" "KiCad Footprints:PGA2350"
 			(at 179.07 162.052 0)
 			(hide yes)
 			(show_name no)
@@ -5263,7 +5263,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://docs.arduino.cc/resources/datasheets/ABX00053-datasheet.pdf"
+		(property "Datasheet" "https://shop.pimoroni.com/products/pga2350"
 			(at 204.47 159.512 0)
 			(hide yes)
 			(show_name no)
@@ -5274,7 +5274,7 @@
 				)
 			)
 		)
-		(property "Description" "Arduino Nano board based on the RP2040 microcontroller with a dual-core 133 MHz ARM Cortex-M0+ processor, 264 kB SRAM, and up to 16 MB flash memory. Operates at 3.3V, with 5V Micro USB input and 4-20V VIN. Features Wi-Fi®, Bluetooth® LE, digital and analog pins, and supports SPI, I2C, UART, and PIO. Includes a 6-axis IMU, RGB LED, microphone, and cryptographic chip for secure communication."
+		(property "Description" "A minimal but powerful RP2350 breakout board modelled on a Pin Grid Array, with the maximum exposed pins crammed into the smallest possible space."
 			(at 374.396 156.972 0)
 			(hide yes)
 			(show_name no)
