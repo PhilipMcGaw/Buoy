@@ -533,13 +533,13 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 25.4) (xy 34.29 25.4)
+			(xy 248.92 36.83) (xy 251.46 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5899b881-c271-4ba0-b981-2f1dd657ea4d")
+		(uuid "7400e029-10e8-41b6-96d7-2a95b67391d6")
 	)
 	(wire
 		(pts
@@ -553,26 +553,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 24.13) (xy 35.56 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a8dd8cd-b89d-44a7-ba61-e32f463b87bf")
-	)
-	(wire
-		(pts
-			(xy 35.56 38.1) (xy 35.56 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c19e0ee-727b-470f-8790-b2108443249d")
-	)
-	(wire
-		(pts
 			(xy 102.87 20.32) (xy 102.87 22.86)
 		)
 		(stroke
@@ -580,16 +560,6 @@
 			(type default)
 		)
 		(uuid "8cf54c74-8e51-4eef-ada2-45a5e67fe4df")
-	)
-	(wire
-		(pts
-			(xy 34.29 38.1) (xy 35.56 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b570eb2c-7e4c-4739-9467-9d156a155c98")
 	)
 	(wire
 		(pts
@@ -642,27 +612,16 @@
 		)
 		(uuid "774af49c-1804-4f25-98c4-58e109025c1a")
 	)
-	(hierarchical_label "Back_PCB_GND"
-		(shape input)
-		(at 34.29 38.1 180)
+	(hierarchical_label "V_Solar_An"
+		(shape output)
+		(at 251.46 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "8bba81f7-ffac-4acb-8014-00984b593f6e")
-	)
-	(hierarchical_label "Back_PCB_+5V"
-		(shape input)
-		(at 34.29 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dc9c3e32-0e10-4b6e-a44d-473f20d8feba")
+		(uuid "966c3a06-9966-40c1-a8e4-e6bba4c82578")
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
@@ -843,6 +802,7 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 80.01 40.64 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -851,7 +811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "28ced935-0dc2-4a5e-850b-0f3ad63c60cf")
+		(uuid "38934acf-eda1-49da-8355-65949dd4929e")
 		(property "Reference" "#PWR056"
 			(at 80.01 46.99 0)
 			(hide yes)
@@ -863,7 +823,7 @@
 				)
 			)
 		)
-		(property "Value" "Back PCB GND"
+		(property "Value" "GND"
 			(at 80.01 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -895,8 +855,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 80.01 40.64 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -906,7 +867,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8733c3cc-e28d-44a3-9255-42f7c1545d78")
+			(uuid "50763ab1-1d11-4688-8a23-d90d9a6b9971")
 		)
 		(instances
 			(project "Buoy PCB"
@@ -919,84 +880,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3aea1db5-51a8-4af5-a935-9dcc119f1714")
-		(property "Reference" "#PWR051"
-			(at 35.56 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Back PCB GND"
-			(at 35.56 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4568625c-85dd-4c1a-9301-ef38221ceb87")
-		)
-		(instances
-			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/2b71a53e-4a43-4bc8-a314-937e96c041a6"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 102.87 40.64 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1005,8 +890,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5f1b9d53-7ec0-4cad-b0b2-7f05fe141524")
-		(property "Reference" "#PWR057"
+		(uuid "8a5cd2b5-9806-4374-a023-7bcb644dc956")
+		(property "Reference" "#PWR058"
 			(at 102.87 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -1017,7 +902,7 @@
 				)
 			)
 		)
-		(property "Value" "Back PCB GND"
+		(property "Value" "GND"
 			(at 102.87 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1049,85 +934,8 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e567291-c935-46c9-869f-320de382fb2c")
-		)
-		(instances
-			(project "Buoy PCB"
-				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/2b71a53e-4a43-4bc8-a314-937e96c041a6"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 35.56 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75feb741-fa5b-479f-8aee-d85e2499fcd2")
-		(property "Reference" "#PWR050"
-			(at 35.56 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Back PCB +5V"
-			(at 35.56 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 35.56 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1138,12 +946,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "80aa5215-398f-4778-b600-2f3e4a51b215")
+			(uuid "06f2adab-6ba9-4e9c-9293-d973a6565798")
 		)
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/2b71a53e-4a43-4bc8-a314-937e96c041a6"
-					(reference "#PWR050")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -1160,8 +968,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "87046ba3-4b4b-45b7-a59b-9aeffccf902b")
-		(property "Reference" "#PWR059"
+		(uuid "9362c6de-030d-4357-a94f-0c2afa260b06")
+		(property "Reference" "#PWR055"
 			(at 80.01 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -1172,14 +980,15 @@
 				)
 			)
 		)
-		(property "Value" "Back PCB +5V"
-			(at 80.01 15.24 0)
+		(property "Value" "+5V"
+			(at 82.55 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1216,12 +1025,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "adf7aa34-81e7-45e8-b2ae-5b58b2002f49")
+			(uuid "acd1e052-c031-4b95-a94d-6c3dd6e03fa2")
 		)
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/2b71a53e-4a43-4bc8-a314-937e96c041a6"
-					(reference "#PWR059")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1238,8 +1047,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dcd82f76-a47c-4508-9b8f-bbbf7f881336")
-		(property "Reference" "#PWR060"
+		(uuid "a5d9bf2d-84e7-4b63-9275-0f47a5b2011e")
+		(property "Reference" "#PWR057"
 			(at 102.87 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -1250,14 +1059,15 @@
 				)
 			)
 		)
-		(property "Value" "Back PCB +5V"
-			(at 102.87 15.24 0)
+		(property "Value" "+5V"
+			(at 105.41 19.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1294,13 +1104,70 @@
 			)
 		)
 		(pin "1"
-			(uuid "fdb79885-b80a-46dd-adc8-1df1bb7e2aee")
+			(uuid "bd918d34-5cb1-40d4-8877-65f62984fe56")
 		)
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/2b71a53e-4a43-4bc8-a314-937e96c041a6"
-					(reference "#PWR060")
+					(reference "#PWR057")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 215.9 35.56)
+		(size 33.02 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5dd09494-980e-4d84-bedc-6baef242cfe6")
+		(property "Sheetname" "Solar"
+			(at 215.9 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solar.kicad_sch"
+			(at 215.9 51.3846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_Solar_An" output
+			(at 248.92 36.83 0)
+			(uuid "231e228e-22b6-485c-931e-c6f45a087c9f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Buoy PCB"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/2b71a53e-4a43-4bc8-a314-937e96c041a6"
+					(page "2")
 				)
 			)
 		)
