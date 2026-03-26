@@ -1455,6 +1455,12 @@
 		)
 	)
 	(junction
+		(at 124.46 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "074559b9-cfa7-48aa-9e3c-03b61f21c25a")
+	)
+	(junction
 		(at 134.62 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1479,10 +1485,34 @@
 		(uuid "1a69eebe-d0c4-4d87-8576-35028b0c8236")
 	)
 	(junction
+		(at 109.22 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bb2ee9c-374f-4bdb-87e6-bb21299bf175")
+	)
+	(junction
+		(at 124.46 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f554479-4cbd-4633-972c-9819ab9b4bd4")
+	)
+	(junction
 		(at 134.62 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "279546e4-769c-41c0-929c-34743bc67bf0")
+	)
+	(junction
+		(at 109.22 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2860000f-0f01-45f5-9e49-ea34fff0387e")
+	)
+	(junction
+		(at 109.22 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44a58c7c-6ea3-4ee3-9437-e9e6e68fbebe")
 	)
 	(junction
 		(at 101.6 100.33)
@@ -1503,16 +1533,40 @@
 		(uuid "7189321a-4c24-460f-a81a-8b9a5e893449")
 	)
 	(junction
+		(at 109.22 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a60e7a5-367a-41ef-bee5-7f0a789f124e")
+	)
+	(junction
 		(at 104.14 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b156f90-41ec-413f-aed7-7cdacba4e7a3")
 	)
 	(junction
+		(at 124.46 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d9abf4-2d3f-4ae6-8f13-a256fca2519b")
+	)
+	(junction
 		(at 132.08 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a085ac06-71ca-4e90-8f39-50cb90b47684")
+	)
+	(junction
+		(at 109.22 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae6c0afe-e8c7-4848-9216-cbdb078d20cd")
+	)
+	(junction
+		(at 124.46 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1dbbc1c-e048-412c-bebd-defdd7d0453b")
 	)
 	(junction
 		(at 101.6 139.7)
@@ -1537,6 +1591,22 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1ec1faa-32fd-4f52-91f2-bc188a129e3d")
+	)
+	(junction
+		(at 124.46 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "febe5011-ce83-4d9a-9553-dd1cf69c7d87")
+	)
+	(wire
+		(pts
+			(xy 109.22 115.57) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0334ee9d-3488-4ca4-ae31-2ef9cc99b3e3")
 	)
 	(wire
 		(pts
@@ -1630,6 +1700,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 107.95) (xy 109.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "352e74a4-74fc-4516-b67c-3b3c8ccf8dd9")
+	)
+	(wire
+		(pts
 			(xy 109.22 102.87) (xy 124.46 102.87)
 		)
 		(stroke
@@ -1710,6 +1790,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 105.41) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "675a9d93-e1fd-45b2-a018-df207765ae0c")
+	)
+	(wire
+		(pts
 			(xy 132.08 100.33) (xy 132.08 139.7)
 		)
 		(stroke
@@ -1720,16 +1810,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 115.57) (xy 124.46 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fb56029-b4e3-4f07-adc9-3ca9dac5aedc")
-	)
-	(wire
-		(pts
 			(xy 109.22 113.03) (xy 124.46 113.03)
 		)
 		(stroke
@@ -1737,6 +1817,16 @@
 			(type default)
 		)
 		(uuid "6ff70eb2-62b2-4bf8-81ea-30942ee68866")
+	)
+	(wire
+		(pts
+			(xy 93.98 105.41) (xy 109.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71572fbd-68ca-4c30-9829-30a8714d4bef")
 	)
 	(wire
 		(pts
@@ -1770,6 +1860,26 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 113.03) (xy 109.22 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d7f340-3011-40a2-a329-3d551ea06d63")
+	)
+	(wire
+		(pts
+			(xy 93.98 110.49) (xy 109.22 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4ac3f5-b39b-456a-b27d-395b0e460c6a")
+	)
+	(wire
+		(pts
 			(xy 132.08 142.24) (xy 132.08 175.26)
 		)
 		(stroke
@@ -1777,6 +1887,16 @@
 			(type default)
 		)
 		(uuid "8f7dd7ba-c3ae-4195-a3f6-b12f7eaf2309")
+	)
+	(wire
+		(pts
+			(xy 124.46 113.03) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ead9b1-8d8a-4afa-ba86-69e6743a53f9")
 	)
 	(wire
 		(pts
@@ -1807,6 +1927,16 @@
 			(type default)
 		)
 		(uuid "9f8faf53-5a2a-421d-b81b-5995f3cda651")
+	)
+	(wire
+		(pts
+			(xy 93.98 115.57) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a245b9b3-62c3-4f05-a4dd-d102339f56af")
 	)
 	(wire
 		(pts
@@ -1920,6 +2050,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 110.49) (xy 142.24 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a26a1e-f792-4379-978b-69be01598367")
+	)
+	(wire
+		(pts
 			(xy 109.22 137.16) (xy 104.14 137.16)
 		)
 		(stroke
@@ -1930,6 +2070,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 115.57) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55c6bce-0773-4b9f-b5bc-7176be8bdf6a")
+	)
+	(wire
+		(pts
 			(xy 124.46 102.87) (xy 142.24 102.87)
 		)
 		(stroke
@@ -1937,6 +2087,16 @@
 			(type default)
 		)
 		(uuid "e72f24a2-2bca-41ff-8a1b-32c6f6854c7f")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 142.24 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07648cb-e346-44de-a59c-f76416afcc98")
 	)
 	(wire
 		(pts
@@ -2763,6 +2923,56 @@
 				(justify left)
 			)
 		)
+		(pin "V_Solar_An" output
+			(at 142.24 105.41 180)
+			(uuid "1b9a1da5-3f8a-4ccf-af34-36661e87f3c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0_RX" bidirectional
+			(at 142.24 107.95 180)
+			(uuid "044f041d-eb42-4b96-88fe-206b6fb43a66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART0_TX" bidirectional
+			(at 142.24 110.49 180)
+			(uuid "7d4885fc-88c4-4901-a227-5952d405da28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_A" bidirectional
+			(at 142.24 113.03 180)
+			(uuid "afc72064-a7de-45f4-b9e0-241a58ab2505")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Data_B" bidirectional
+			(at 142.24 115.57 180)
+			(uuid "dc982d5a-9120-465d-87d9-7c88cb55df33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9"
@@ -2813,6 +3023,56 @@
 		(pin "NeoPixle_Connect_out" output
 			(at 93.98 102.87 0)
 			(uuid "8432d578-7d30-416f-838e-31679d8f8a4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_Solar_An" input
+			(at 93.98 105.41 0)
+			(uuid "295e4c11-44cb-4609-adf2-9ba6a60624cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART0_RX" bidirectional
+			(at 93.98 107.95 0)
+			(uuid "3abf9c4e-dd53-4737-a4fe-9114e11ce9f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART0_TX" bidirectional
+			(at 93.98 110.49 0)
+			(uuid "fdeea7c2-9e69-4b91-a8c7-84c460abab75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Data_A" bidirectional
+			(at 93.98 113.03 0)
+			(uuid "2106cbaa-7d3e-4dc1-8f81-3baf860e0836")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Data_B" bidirectional
+			(at 93.98 115.57 0)
+			(uuid "af578320-af2a-49da-b78a-3e449adc0fde")
 			(effects
 				(font
 					(size 1.27 1.27)

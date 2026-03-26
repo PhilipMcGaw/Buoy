@@ -5,7 +5,7 @@
 	(uuid "a8c2c8d2-097f-41aa-accc-aab283fb06a5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x09"
+		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,7 +16,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 12.7 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x09"
+			(property "Value" "Conn_01x08"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,9 +90,9 @@
 					)
 				)
 			)
-			(symbol "Conn_01x09_1_1"
+			(symbol "Conn_01x08_1_1"
 				(rectangle
-					(start -1.27 11.43)
+					(start -1.27 8.89)
 					(end 1.27 -11.43)
 					(stroke
 						(width 0.254)
@@ -100,17 +100,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 10.287)
-					(end 0 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 				(rectangle
@@ -202,7 +191,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -220,7 +209,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -238,7 +227,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -256,7 +245,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -274,7 +263,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -292,7 +281,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -310,7 +299,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -328,7 +317,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -338,24 +327,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1164,6 +1135,228 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KiCad Symbols:Poka Yoke UART"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "Poka Yoke UART"
+				(at 0 -5.334 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "ki_keywords" "Poka Yoke UART"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Poka Yoke UART_0_1"
+				(polyline
+					(pts
+						(xy -8.89 2.54) (xy -6.35 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -2.54) (xy -6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.35 3.81)
+					(end 6.35 -3.81)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Poka Yoke UART_1_1"
+				(polyline
+					(pts
+						(xy 6.35 -2.54) (xy -6.35 2.54) (xy 6.35 2.54) (xy -6.35 -2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type dash_dot_dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 11.43 2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 -2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -11.43 2.54 0)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1436,12 +1629,6 @@
 		(uuid "44cf43ce-b309-4304-bec8-835b54c09d45")
 	)
 	(junction
-		(at 213.36 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e5ae83a-1534-43a2-80d8-660fbd7b9c1d")
-	)
-	(junction
 		(at 215.9 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1454,26 +1641,26 @@
 		(uuid "7e4ef88d-cda5-400b-ab44-95de6883eddc")
 	)
 	(junction
-		(at 224.79 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84a1129b-aa79-4706-bd30-a5b96c9ebe71")
-	)
-	(junction
 		(at 149.86 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d04cc90d-47d3-4ae3-8f2e-e340ec127d7f")
 	)
+	(junction
+		(at 224.79 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e750f7bf-2d37-4fbc-81d5-65b1519dd5fa")
+	)
 	(wire
 		(pts
-			(xy 215.9 92.71) (xy 213.36 92.71)
+			(xy 196.85 92.71) (xy 198.12 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e860d06-b084-42a4-b12f-7570393c3ec6")
+		(uuid "06be588e-1b70-41b3-b31a-edb9a32902e2")
 	)
 	(wire
 		(pts
@@ -1497,6 +1684,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 87.63) (xy 140.97 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6c50f3-49b0-4268-a255-e31122828ce3")
+	)
+	(wire
+		(pts
+			(xy 191.77 92.71) (xy 189.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235d39ff-8d6b-4ef2-a78c-f0309eb34073")
+	)
+	(wire
+		(pts
 			(xy 218.44 74.93) (xy 227.33 74.93)
 		)
 		(stroke
@@ -1514,16 +1721,6 @@
 			(type default)
 		)
 		(uuid "3284c095-7159-4b4f-8af1-0bf13379c516")
-	)
-	(wire
-		(pts
-			(xy 220.98 92.71) (xy 227.33 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3530c576-ae4a-4af8-913a-8571854d768b")
 	)
 	(wire
 		(pts
@@ -1577,6 +1774,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 92.71) (xy 152.4 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65fd81c7-689a-429d-bc7a-f1e6fa94bc4e")
+	)
+	(wire
+		(pts
 			(xy 227.33 87.63) (xy 215.9 87.63)
 		)
 		(stroke
@@ -1584,6 +1791,16 @@
 			(type default)
 		)
 		(uuid "71258fc9-cb88-4594-be87-f39c02ff1f33")
+	)
+	(wire
+		(pts
+			(xy 224.79 92.71) (xy 227.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fc4862-5283-4565-9a91-8eba69dbc3dd")
 	)
 	(wire
 		(pts
@@ -1617,6 +1834,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 92.71) (xy 224.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d511358-d2e5-41f6-807c-6df24b7e0e2c")
+	)
+	(wire
+		(pts
 			(xy 149.86 85.09) (xy 152.4 85.09)
 		)
 		(stroke
@@ -1637,13 +1864,23 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 82.55) (xy 224.79 95.25)
+			(xy 224.79 82.55) (xy 224.79 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "886ed663-f197-436d-9fde-7da3039ef5f0")
+	)
+	(wire
+		(pts
+			(xy 133.35 82.55) (xy 152.4 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb65b9c-ff11-4778-ab33-048d618dfa2c")
 	)
 	(wire
 		(pts
@@ -1654,16 +1891,6 @@
 			(type default)
 		)
 		(uuid "95b9fc98-1b75-4153-8b5f-9cffd18c9ffc")
-	)
-	(wire
-		(pts
-			(xy 224.79 95.25) (xy 224.79 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a5ce305-f3fa-4de3-8654-b6f14e9e75a9")
 	)
 	(wire
 		(pts
@@ -1687,13 +1914,23 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 92.71) (xy 213.36 90.17)
+			(xy 133.35 87.63) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3a6cdd3-114c-4ff1-b5bf-35140334a034")
+		(uuid "cb3185a9-1d4a-4a0b-b9bc-58b3a595fb1d")
+	)
+	(wire
+		(pts
+			(xy 205.74 92.71) (xy 208.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb395c34-d378-4363-a244-01c5c5aa35c0")
 	)
 	(wire
 		(pts
@@ -1707,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 152.4 82.55)
+			(xy 104.14 82.55) (xy 110.49 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1727,17 +1964,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 95.25) (xy 227.33 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6bb5e3-3dbb-4ab5-bf6f-1f8264d9a3a5")
-	)
-	(wire
-		(pts
-			(xy 146.05 92.71) (xy 152.4 92.71)
+			(xy 104.14 87.63) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1755,9 +1982,20 @@
 		)
 		(uuid "f5bf6a1c-2139-4339-8de8-6cbf1debffee")
 	)
+	(hierarchical_label "Data_B"
+		(shape bidirectional)
+		(at 208.28 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a42f4b1-b108-4ae8-a1c4-70a562752fd7")
+	)
 	(hierarchical_label "232_TX"
 		(shape bidirectional)
-		(at 146.05 92.71 180)
+		(at 104.14 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1788,6 +2026,17 @@
 		)
 		(uuid "3f7d96ca-a31a-479a-8e97-7be4bf1239b4")
 	)
+	(hierarchical_label "Data_A"
+		(shape bidirectional)
+		(at 189.23 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45d9b8a4-2c2e-499d-8784-870ce462cc5f")
+	)
 	(hierarchical_label "Data_B"
 		(shape bidirectional)
 		(at 208.28 80.01 180)
@@ -1812,7 +2061,7 @@
 	)
 	(hierarchical_label "232_RX"
 		(shape bidirectional)
-		(at 146.05 82.55 180)
+		(at 104.14 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1905,6 +2154,86 @@
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 201.93 92.71 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19021828-b125-4be2-a331-9f1ba2bb4680")
+		(property "Reference" "JP2"
+			(at 201.93 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Termination"
+			(at 201.93 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 201.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 201.93 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8e3c6a0-41a1-4d01-95b7-32bd773d99ed")
+		)
+		(pin "2"
+			(uuid "8566c3aa-4faf-45ea-835b-acd674bb041d")
+		)
+		(instances
+			(project "Buoy PCB"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -2013,7 +2342,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 218.44 92.71 90)
+		(at 194.31 92.71 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2024,7 +2353,7 @@
 		(fields_autoplaced yes)
 		(uuid "435c7f32-aaf6-4ebc-acd3-8e9fcf0a0961")
 		(property "Reference" "R7"
-			(at 218.44 95.25 90)
+			(at 194.31 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2034,7 +2363,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 218.44 97.79 90)
+			(at 194.31 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2044,7 +2373,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 218.44 92.71 0)
+			(at 194.31 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2055,7 +2384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 92.71 0)
+			(at 194.31 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2066,7 +2395,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 218.44 92.71 0)
+			(at 194.31 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2114,7 +2443,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RS485 - Power"
+		(property "Value" "RS485 Power"
 			(at 220.98 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2174,8 +2503,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x09")
-		(at 232.41 85.09 0)
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 232.41 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2186,7 +2515,7 @@
 		(fields_autoplaced yes)
 		(uuid "8831fcaa-8de7-4fb7-8e27-9fffe7aaa271")
 		(property "Reference" "J8"
-			(at 234.95 83.8199 0)
+			(at 234.95 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2196,8 +2525,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x09"
-			(at 234.95 86.3599 0)
+		(property "Value" "RS485"
+			(at 234.95 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2207,8 +2536,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_S9B-EH_1x09_P2.50mm_Horizontal"
-			(at 232.41 85.09 0)
+		(property "Footprint" "Connector_JST:JST_EH_S8B-EH_1x08_P2.50mm_Horizontal"
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +2548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 85.09 0)
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2229,8 +2558,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x09, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 232.41 85.09 0)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2263,9 +2592,6 @@
 		)
 		(pin "6"
 			(uuid "e7428d12-3b52-4c09-94f5-4bd15d175d4f")
-		)
-		(pin "9"
-			(uuid "56454ccd-8eeb-4b9a-b805-e1501b56b01c")
 		)
 		(instances
 			(project "Buoy PCB"
@@ -2428,6 +2754,92 @@
 			(project "Buoy PCB"
 				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad Symbols:Poka Yoke UART")
+		(at 121.92 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1171c7e-3b40-4185-9a82-d015d3c0ea80")
+		(property "Reference" "R9"
+			(at 121.92 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "Poka Yoke UART"
+			(at 121.92 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "KiCad Footprints:Poka yoke UART Solder"
+			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4be40ce7-5a5e-479e-97be-694e526294a0")
+		)
+		(pin "2"
+			(uuid "2a125f18-74c4-476e-b0c2-b9858c04a8a4")
+		)
+		(pin "1"
+			(uuid "4b4e8e3d-b629-44d2-bb3b-b57ac6eab732")
+		)
+		(pin "4"
+			(uuid "4aaac23e-3f02-4979-869d-f641ed6129f9")
+		)
+		(instances
+			(project "Buoy PCB"
+				(path "/a041e2a6-7d41-458c-91f3-753821d3dfe9/402c8c5f-ad4a-46d2-a42e-eba9c7fe5855/d9a8ca03-ff66-4db5-998a-66a2672c57da"
+					(reference "R9")
 					(unit 1)
 				)
 			)
