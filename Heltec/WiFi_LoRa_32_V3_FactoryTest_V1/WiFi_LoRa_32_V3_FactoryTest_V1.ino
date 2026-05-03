@@ -158,7 +158,7 @@ void WIFISetUp(void)
 	delay(100);
 	WiFi.mode(WIFI_STA);
 	WiFi.setAutoReconnect(true);
-	WiFi.begin("Your WiFi SSID","Your Password");//fill in "Your WiFi SSID","Your Password"
+	WiFi.begin("Coin-The-Sourcerer","welcometoankhmorpork");//fill in "Your WiFi SSID","Your Password"
 	delay(100);
 
 	byte count = 0;
