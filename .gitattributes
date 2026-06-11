@@ -1,2 +1,10 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# KiCAD things for the languages list on GitHub
+*.kicad_pcb linguist-detectable=true
+*.kicad_sch linguist-detectable=true
+fp-lib-table linguist-generated=true
+*.xml linguist-generated=true
+*.txt linguist-generated=true
+*.pretty/* linguist-vendored=true
